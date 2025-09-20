@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Typesense server binaries
+typesense-server*
+*.tar.gz
+*.md5.txt
+
+# Test files
+test-*.js
+final-test.js

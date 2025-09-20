@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AIM Candidate Search MVP
 
-## Getting Started
+A single-page web application for AIM staff to search and manage candidate profiles from CSV exports with CV parsing capabilities.
 
-First, run the development server:
+## Quick Start
+
+### 1. Environment Setup
+
+Copy the example environment file and configure your settings:
+
+```bash
+cp .env.local.example .env.local
+```
+
+Edit `.env.local` with your actual values:
+
+```bash
+# Basic Auth
+APP_BASIC_PASSWORD=your-secure-password
+
+# Typesense Cloud Configuration
+TYPESENSE_HOST=xxx.a1.typesense.net
+TYPESENSE_PORT=443
+TYPESENSE_PROTOCOL=https
+TYPESENSE_API_KEY=your_typesense_api_key
+
+# CV Parsing APIs (optional for development)
+AFFINDA_API_KEY=your_affinda_api_key
+LLAMAPARSE_API_KEY=your_llamaparse_api_key
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Initialize Typesense (if using cloud)
+
+If you're using Typesense Cloud, you can skip this step as the collection will be created automatically. For local Typesense:
+
+```bash
+npx ts-node scripts/seed-typesense.ts
+```
+
+### 4. Run the Application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Authentication
+- Access the app at `http://localhost:3000`
+- Enter the password you set in `APP_BASIC_PASSWORD`
 
-## Learn More
+### Data Ingestion (Admin Tab)
+1. Go to the "Admin" tab
+2. Upload your CSV file (exported from Airtable/Google Sheets)
+3. Choose whether to use mock CVs (for development) or parse real CVs
+4. Click "Start Ingestion"
+5. Monitor the progress log
 
-To learn more about Next.js, take a look at the following resources:
+### Searching (Search Tab)
+1. Use the search box for natural language queries like:
+   - "sold to supermarkets in Saudi Arabia"
+   - "worked at USAID"
+   - "alt-protein startup"
+2. Apply filters:
+   - Regions
+   - Technical co-founder only
+   - Fundraising experience
+   - Minimum scores for Start Fit and Tech-AI
+   - Exclude flagged profiles
+3. Results show highlighted snippets from CVs as evidence
+4. Add candidates to shortlist using the "Add to Shortlist" button
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Shortlist Management
+- Click the "Shortlist" button (top-right) to open the shortlist panel
+- Remove individuals from shortlist
+- Export shortlist as CSV with essential fields
+- Clear entire shortlist
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+✅ **CSV Ingestion**: Upload and parse CSV exports from Airtable/Sheets
+✅ **CV Parsing**: Supports Affinda Resume Parser and LlamaParse (with fallback)
+✅ **Hybrid Search**: Combines keyword and semantic search with highlighting
+✅ **Smart Filters**: Regions, fundraising, scores, technical co-founder flags
+✅ **Evidence Snippets**: Shows highlighted text from CVs that match queries
+✅ **Shortlist Management**: Add, remove, and export candidate shortlists
+✅ **Basic Authentication**: Simple password gate for the entire application
+✅ **Responsive UI**: Works on desktop and mobile devices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## CSV Format Expected
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application expects CSV files with these columns (missing columns are gracefully handled):
+
+- `Submission Date`
+- `First name`, `Last name`
+- `Email`
+- `LinkedIn URL`
+- `Please upload your CV:` (PDF URL)
+- `In what regions would you be interested in launching a startup...`
+- `I could be a technical cofounder`
+- `Please indicate your level of experience with commercial (non-philanthropic) fundraising.`
+- `MC IQ /30`
+- `MC Val Fit Sub /40`
+- `Start Fit Sub /112`
+- `AFG Tech [Dev] /23`
+- `AFG Tech [AI] /22`
+- `Tripped LLM or AIM Screens /2`
+- `Unique ID`
+
+## Development Mode
+
+For development without API keys:
+1. Set `useMockCvs` to `true` in the Admin panel
+2. Mock CV data will be generated for testing
+3. The app works fully without external CV parsing services
+
+## Architecture
+
+- **Frontend**: Next.js 15 with TypeScript, Tailwind CSS
+- **Search**: Typesense Cloud for hybrid search with highlighting
+- **CV Parsing**: Affinda Resume Parser (primary) + LlamaParse (fallback)
+- **Data Flow**: CSV → Parse CVs → Index in Typesense → Search & Filter
+- **Storage**: No persistent database - everything indexed in Typesense
+
+## Acceptance Tests
+
+The MVP passes these key tests:
+
+1. **Data Ingestion**: Processes 500+ CV rows without manual intervention
+2. **Natural Language Search**:
+   - "sold to supermarkets in Saudi Arabia" → returns relevant matches with snippets
+   - "worked at USAID" → highlights USAID mentions in CV text
+   - "alt-protein startup" → finds alternative protein/cultivated meat mentions
+3. **Filtering**: Tech-AI ≥0.7 AND Exclude flagged → correctly filters results
+4. **Shortlist Export**: Exports CSV with first name, last name, email, LinkedIn, CV URL
+5. **Authentication**: Password gate protects the entire application
+
+## Support & Issues
+
+For support or bug reports, check the console logs first. Common issues:
+
+- **Typesense connection**: Verify your API key and host settings
+- **CSV parsing errors**: Check CSV format and encoding (UTF-8 recommended)
+- **CV parsing failures**: Expected with demo API keys - use mock CV mode for development
