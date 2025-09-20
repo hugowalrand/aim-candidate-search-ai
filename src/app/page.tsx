@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import AISearchInterface from '@/components/AISearchInterface'
+import TalentSearchInterface from '@/components/TalentSearchInterface'
 import Shortlist from '@/components/Shortlist'
 import type { ShortlistItem } from '@/types'
 
@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <AISearchInterface
+        <TalentSearchInterface
           onAddToShortlist={handleAddToShortlist}
           shortlist={shortlist}
         />
