@@ -190,7 +190,7 @@ export default function TalentSearchInterface({ onAddToShortlist, shortlist }: P
 
                   <div className="ml-6 text-right">
                     <div className="text-2xl font-bold text-blue-600 mb-2">
-                      {Math.round(result.score)}%
+                      {Math.round(result.score * 100)}%
                     </div>
 
                     <button

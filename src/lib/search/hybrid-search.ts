@@ -227,8 +227,19 @@ export class HybridSearchEngine {
       }
 
       if (intent.fundraising_required) {
-        // Filter for candidates with actual fundraising stages (not None, null or empty)
-        filterClauses.push('fundraising_stage:[* TO *] && fundraising_stage:!=None')
+        // Enhanced fundraising filtering - check for specific stages mentioned in query
+        const queryLower = query.toLowerCase()
+
+        if (queryLower.includes('series a')) {
+          filterClauses.push('fundraising_stage:"Series A"')
+        } else if (queryLower.includes('series b')) {
+          filterClauses.push('fundraising_stage:"Series B"')
+        } else if (queryLower.includes('seed')) {
+          filterClauses.push('fundraising_stage:*seed*')
+        } else {
+          // General fundraising filter for any non-None stage
+          filterClauses.push('fundraising_stage:[* TO *] && fundraising_stage:!=None')
+        }
       }
 
       const searchParams = {
@@ -431,7 +442,7 @@ export class HybridSearchEngine {
 
       return {
         ...candidate,
-        score: Math.round(rerank_score * 100),
+        score: rerank_score,
         explanation: `[${searchMethod}] ${explanation}`,
         score_breakdown
       }
