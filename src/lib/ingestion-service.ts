@@ -39,40 +39,22 @@ export class IngestionService {
 
       console.log(`✅ Transformed ${candidates.length} candidates`)
 
-      // Step 3: Generate embeddings in batches
-      console.log('🧠 Generating embeddings with Voyage AI...')
-      const batchSize = 50 // Process in batches to avoid API limits
+      // Step 3: Prepare candidates (skip embeddings for now due to API limits)
+      console.log('⚡ Preparing candidates for BM25-only search (skipping embeddings)')
       const candidatesWithEmbeddings: Candidate[] = []
 
-      for (let i = 0; i < candidates.length; i += batchSize) {
-        const batch = candidates.slice(i, i + batchSize)
-        const texts = batch.map(candidate => candidate.combined_text || createCombinedText(candidate))
-
-        try {
-          const embeddings = await this.embeddingService.generateDocumentEmbeddings(texts)
-
-          // Add embeddings to candidates
-          batch.forEach((candidate, index) => {
-            candidate.embedding = embeddings[index] || []
-            candidatesWithEmbeddings.push(candidate)
-          })
-
-          console.log(`📈 Processed batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(candidates.length / batchSize)}`)
-
-          // Small delay to respect API limits
-          await new Promise(resolve => setTimeout(resolve, 100))
-
-        } catch (error) {
-          console.error(`❌ Failed to process batch ${Math.floor(i / batchSize) + 1}:`, error)
-          errors.push(`Embedding generation failed for batch ${Math.floor(i / batchSize) + 1}`)
-
-          // Add candidates without embeddings as fallback
-          batch.forEach(candidate => {
-            candidate.embedding = []
-            candidatesWithEmbeddings.push(candidate)
-          })
+      // Add all candidates with empty embeddings for BM25-only search
+      candidates.forEach(candidate => {
+        // Ensure combined_text is set for BM25 search
+        if (!candidate.combined_text) {
+          candidate.combined_text = createCombinedText(candidate)
         }
-      }
+        // Set empty embedding for now
+        candidate.embedding = []
+        candidatesWithEmbeddings.push(candidate)
+      })
+
+      console.log(`✅ Prepared ${candidatesWithEmbeddings.length} candidates for BM25 search`)
 
       // Step 4: Upsert to Typesense in batches
       console.log('📤 Uploading to Typesense...')

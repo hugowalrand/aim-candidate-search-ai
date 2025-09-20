@@ -6,7 +6,7 @@ import { createCombinedText } from './search/embedding-service'
 export function transformCandidateData(row: RawCSVRow): Candidate | null {
   try {
     const id = row['Unique ID'] ||
-      `${row['First name']}-${row['Last name']}-${row.Email}`.toLowerCase().replace(/[^a-z0-9]/g, '-')
+      `${row['First name']}-${row['Last name']}-${row.Email}-${Date.now()}-${Math.random()}`.toLowerCase().replace(/[^a-z0-9]/g, '-')
 
     // Parse regions and normalize them
     const regionsText = row['In what regions would you be interested in launching a startup and living in (for at least 2 years)? Please check all that apply.'] || ''

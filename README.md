@@ -1,32 +1,31 @@
-# AIM Candidate Search MVP
+# 🚀 AIM Candidate Search - Production AI System
 
-A single-page web application for AIM staff to search and manage candidate profiles from CSV exports with CV parsing capabilities.
+A production-grade AI-powered candidate search system with state-of-the-art hybrid search capabilities for AIM staff to find and evaluate candidates using natural language queries.
 
 ## Quick Start
 
 ### 1. Environment Setup
 
-Copy the example environment file and configure your settings:
+Create `.env.local` with your API keys:
 
 ```bash
-cp .env.local.example .env.local
-```
+# Google AI API - for structured query parsing (Gemini 2.5 Flash)
+GOOGLE_API_KEY=your_google_api_key
 
-Edit `.env.local` with your actual values:
+# Voyage AI - for high-quality embeddings (voyage-3-large)
+VOYAGE_API_KEY=your_voyage_api_key
 
-```bash
-# Basic Auth
-APP_BASIC_PASSWORD=your-secure-password
+# Cohere - for result reranking (rerank-v3.5)
+COHERE_API_KEY=your_cohere_api_key
 
-# Typesense Cloud Configuration
-TYPESENSE_HOST=xxx.a1.typesense.net
-TYPESENSE_PORT=443
-TYPESENSE_PROTOCOL=https
-TYPESENSE_API_KEY=your_typesense_api_key
-
-# CV Parsing APIs (optional for development)
+# Affinda - for resume parsing
 AFFINDA_API_KEY=your_affinda_api_key
-LLAMAPARSE_API_KEY=your_llamaparse_api_key
+
+# Typesense - local development
+TYPESENSE_HOST=localhost
+TYPESENSE_PORT=8108
+TYPESENSE_PROTOCOL=http
+TYPESENSE_API_KEY=development-key
 ```
 
 ### 2. Install Dependencies
