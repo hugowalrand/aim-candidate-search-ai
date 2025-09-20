@@ -24,14 +24,20 @@ export class HybridSearchEngine {
       // Stage A: Intent extraction with Gemini 2.5 Flash
       const intent = await this.intentService.extractIntent(query)
 
-      // Stage B: Dual retrieval (Vector + BM25)
-      const [vectorResults, bm25Results] = await Promise.all([
+      // Stage B: Multi-tier search strategy for better recall
+      const [vectorResults, strictBm25Results, relaxedBm25Results] = await Promise.all([
         this.vectorSearch(query, 100),
-        this.bm25Search(query, intent, 100)
+        this.bm25Search(query, intent, 100), // Strict search with filters
+        this.relaxedBm25Search(query, intent, 150) // Relaxed search for more results
       ])
 
+      // Combine BM25 results (strict + relaxed) and deduplicate
+      const allBm25Results = this.deduplicateCandidates([...strictBm25Results, ...relaxedBm25Results])
+
+      console.log(`📊 Search results: ${vectorResults.length} vector + ${strictBm25Results.length} strict BM25 + ${relaxedBm25Results.length} relaxed BM25 = ${allBm25Results.length} total BM25`)
+
       // Stage C: Fusion (Reciprocal Rank Fusion)
-      const fusedResults = this.fuseResults(vectorResults, bm25Results, 50)
+      const fusedResults = this.fuseResults(vectorResults, allBm25Results, Math.min(100, allBm25Results.length + vectorResults.length))
 
       // Stage D: Cross-encoder reranking with Cohere
       const rerankedResults = await this.rerankService.rerank(query, fusedResults, limit)
@@ -42,12 +48,12 @@ export class HybridSearchEngine {
         intent,
         rerankedResults,
         vectorResults,
-        bm25Results
+        allBm25Results
       )
 
       const totalTime = Date.now() - startTime
       console.log(`✅ Hybrid search completed in ${totalTime}ms`)
-      console.log(`📊 Pipeline: ${vectorResults.length} vector + ${bm25Results.length} BM25 → ${fusedResults.length} fused → ${finalResults.length} final`)
+      console.log(`📊 Pipeline: ${vectorResults.length} vector + ${allBm25Results.length} BM25 → ${fusedResults.length} fused → ${finalResults.length} final`)
 
       return finalResults
 
@@ -96,7 +102,7 @@ export class HybridSearchEngine {
 
       const searchParams = {
         q: '*',
-        vector_query: `embedding:(${queryEmbedding.join(',')}){k:${limit}}`,
+        vector_query: `embedding:([${queryEmbedding.join(',')}]){k:${limit}}`,
         per_page: limit,
         query_by: ''
       }
@@ -137,12 +143,59 @@ export class HybridSearchEngine {
     }
   }
 
+  private expandDomainKeywords(keywords: string[]): string[] {
+    const domainExpansions: { [key: string]: string[] } = {
+      // Healthcare domain expansions
+      'healthcare': ['healthcare', 'biotech', 'pharma', 'pharmaceutical', 'medical', 'clinical', 'drug discovery', 'precision medicine', 'digital health', 'health tech', 'life sciences'],
+      'health': ['health', 'healthcare', 'biotech', 'medical', 'clinical', 'wellness', 'digital health'],
+      'medical': ['medical', 'healthcare', 'clinical', 'biotech', 'pharma', 'drug discovery'],
+      'biotech': ['biotech', 'biotechnology', 'life sciences', 'pharmaceutical', 'drug discovery', 'clinical trials', 'precision medicine'],
+      'pharma': ['pharma', 'pharmaceutical', 'drug discovery', 'biotech', 'clinical trials', 'regulatory affairs'],
+
+      // Tech domain expansions
+      'AI': ['AI', 'artificial intelligence', 'machine learning', 'ML', 'deep learning', 'neural networks', 'LLM'],
+      'machine learning': ['machine learning', 'ML', 'AI', 'artificial intelligence', 'deep learning', 'data science'],
+      'blockchain': ['blockchain', 'crypto', 'cryptocurrency', 'DeFi', 'web3', 'smart contracts', 'distributed ledger'],
+      'fintech': ['fintech', 'financial technology', 'payments', 'banking', 'trading', 'cryptocurrency', 'blockchain'],
+
+      // Business expansions
+      'startup': ['startup', 'entrepreneur', 'founder', 'early stage', 'venture'],
+      'founder': ['founder', 'cofounder', 'co-founder', 'entrepreneur', 'CEO', 'startup'],
+      'enterprise': ['enterprise', 'B2B', 'corporate', 'business', 'commercial', 'SaaS'],
+
+      // Experience expansions
+      'Series A': ['Series A', 'fundraising', 'venture capital', 'investment', 'funding round'],
+      'fundraising': ['fundraising', 'Series A', 'Series B', 'venture capital', 'investment', 'funding'],
+
+      // Regional expansions
+      'Europe': ['Europe', 'European', 'EU', 'London', 'Berlin', 'Paris', 'Amsterdam'],
+      'Africa': ['Africa', 'African', 'Nigeria', 'Kenya', 'South Africa', 'Ghana'],
+      'Asia': ['Asia', 'Asian', 'Singapore', 'India', 'China', 'Japan', 'Southeast Asia']
+    }
+
+    const expandedSet = new Set(keywords)
+
+    for (const keyword of keywords) {
+      const lowerKeyword = keyword.toLowerCase()
+      if (domainExpansions[lowerKeyword]) {
+        domainExpansions[lowerKeyword].forEach(synonym => expandedSet.add(synonym))
+      }
+    }
+
+    return Array.from(expandedSet)
+  }
+
   private async bm25Search(query: string, intent: QueryIntent, limit: number): Promise<Candidate[]> {
     try {
-      // Build search query with keywords
-      const searchTerms = [
+      // Expand keywords with domain synonyms for better semantic matching
+      const expandedKeywords = this.expandDomainKeywords([
         ...intent.must_have_keywords,
-        ...intent.nice_to_have_keywords,
+        ...intent.nice_to_have_keywords
+      ])
+
+      // Build search query with expanded keywords
+      const searchTerms = [
+        ...expandedKeywords,
         query // Include original query
       ].filter(Boolean).join(' ')
 
@@ -174,7 +227,8 @@ export class HybridSearchEngine {
       }
 
       if (intent.fundraising_required) {
-        filterClauses.push('fundraising_stage:!=""')
+        // Filter for candidates with actual fundraising stages (not None, null or empty)
+        filterClauses.push('fundraising_stage:[* TO *] && fundraising_stage:!=None')
       }
 
       const searchParams = {
@@ -253,59 +307,203 @@ export class HybridSearchEngine {
     bm25Results: Candidate[]
   ): SearchResult[] {
     return rerankedResults.map(({ candidate, rerank_score }, index) => {
-      // Calculate match explanations
+      // Detailed match analysis
       const matches = []
+      const warnings = []
 
-      // Keyword matches
-      const keywordMatches = intent.must_have_keywords.filter(keyword =>
-        candidate.combined_text?.toLowerCase().includes(keyword.toLowerCase())
+      // Query term analysis - check which specific terms from the query match
+      const queryTerms = query.toLowerCase().split(/\s+/)
+      const candidateText = (candidate.combined_text || '').toLowerCase()
+      const matchedQueryTerms = queryTerms.filter(term =>
+        candidateText.includes(term) && term.length > 2 // Skip short words
       )
-      if (keywordMatches.length > 0) {
-        matches.push(`Keywords: ${keywordMatches.join(', ')}`)
+
+      if (matchedQueryTerms.length > 0) {
+        matches.push(`Query terms: ${matchedQueryTerms.join(', ')}`)
       }
 
-      // Regional matches
+      // Intent keyword matches with detailed breakdown
+      const mustHaveMatches = intent.must_have_keywords.filter(keyword =>
+        candidateText.includes(keyword.toLowerCase())
+      )
+      const niceToHaveMatches = intent.nice_to_have_keywords.filter(keyword =>
+        candidateText.includes(keyword.toLowerCase())
+      )
+
+      if (mustHaveMatches.length > 0) {
+        matches.push(`Core requirements: ${mustHaveMatches.join(', ')}`)
+      }
+      if (niceToHaveMatches.length > 0) {
+        matches.push(`Additional matches: ${niceToHaveMatches.join(', ')}`)
+      }
+
+      // Missing critical requirements
+      const missingMustHave = intent.must_have_keywords.filter(keyword =>
+        !candidateText.includes(keyword.toLowerCase())
+      )
+      if (missingMustHave.length > 0) {
+        warnings.push(`Missing: ${missingMustHave.join(', ')}`)
+      }
+
+      // Regional analysis
       if (candidate.regions && intent.regions.length > 0) {
         const regionMatches = candidate.regions.filter(region =>
           intent.regions.some(ir => ir.toLowerCase() === region.toLowerCase())
         )
         if (regionMatches.length > 0) {
-          matches.push(`Regions: ${regionMatches.join(', ')}`)
+          matches.push(`Target regions: ${regionMatches.join(', ')}`)
+        } else {
+          warnings.push(`Regions: ${candidate.regions.join(', ')} (not preferred: ${intent.regions.join(', ')})`)
         }
       }
 
-      // Technical match
-      if (intent.tech_required && candidate.tech_cofounder) {
-        matches.push('Technical co-founder')
+      // Technical capability analysis
+      if (intent.tech_required) {
+        if (candidate.tech_cofounder) {
+          matches.push('✓ Technical co-founder capability')
+        } else {
+          warnings.push('⚠ Not a technical co-founder')
+        }
       }
 
-      // Fundraising match
-      if (intent.fundraising_required && candidate.fundraising_stage && candidate.fundraising_stage !== 'None') {
-        matches.push(`Fundraising: ${candidate.fundraising_stage}`)
+      // Fundraising experience analysis
+      if (intent.fundraising_required) {
+        if (candidate.fundraising_stage && candidate.fundraising_stage !== 'None') {
+          matches.push(`✓ Fundraising experience: ${candidate.fundraising_stage}`)
+        } else {
+          warnings.push('⚠ No fundraising experience')
+        }
       }
 
-      // Calculate score breakdown
+      // Skills analysis
+      if (candidate.skills && candidate.skills.length > 0) {
+        const relevantSkills = candidate.skills.filter(skill =>
+          queryTerms.some(term => skill.toLowerCase().includes(term))
+        )
+        if (relevantSkills.length > 0) {
+          matches.push(`Relevant skills: ${relevantSkills.join(', ')}`)
+        }
+      }
+
+      // Experience level
+      if (candidate.years_experience) {
+        matches.push(`${candidate.years_experience} years experience`)
+      }
+
+      // Calculate detailed score breakdown
       const vectorRank = vectorResults.findIndex(c => c.id === candidate.id)
       const bm25Rank = bm25Results.findIndex(c => c.id === candidate.id)
 
+      // More sophisticated scoring
+      const keywordMatchRatio = matchedQueryTerms.length / Math.max(queryTerms.length, 1)
+      const intentMatchRatio = mustHaveMatches.length / Math.max(intent.must_have_keywords.length, 1)
+
       const score_breakdown = {
-        bm25_score: bm25Rank >= 0 ? 1 - (bm25Rank / 100) : 0,
-        vector_score: vectorRank >= 0 ? 1 - (vectorRank / 100) : 0,
+        bm25_score: bm25Rank >= 0 ? Math.max(0, 1 - (bm25Rank / 100)) : 0,
+        vector_score: vectorRank >= 0 ? Math.max(0, 1 - (vectorRank / 100)) : 0,
         rerank_score: rerank_score,
-        regional_match: (candidate.regions?.length && intent.regions.length) ? 0.8 : 0.2,
+        keyword_match_ratio: keywordMatchRatio,
+        intent_match_ratio: intentMatchRatio,
+        regional_match: (candidate.regions?.some(r => intent.regions.includes(r))) ? 0.9 : 0.1,
         fundraising_match: (candidate.fundraising_stage && candidate.fundraising_stage !== 'None') ? 0.8 : 0.2,
         technical_match: candidate.tech_cofounder ? 0.9 : 0.1,
         final_score: rerank_score
       }
 
+      // Generate comprehensive explanation
+      let explanation = ''
+
+      if (matches.length > 0) {
+        explanation += `✅ ${matches.join(' • ')}`
+      }
+
+      if (warnings.length > 0) {
+        explanation += (explanation ? ' | ' : '') + `⚠️ ${warnings.join(' • ')}`
+      }
+
+      if (!explanation) {
+        explanation = `Matched ${matchedQueryTerms.length}/${queryTerms.length} query terms (${Math.round(keywordMatchRatio * 100)}% match)`
+      }
+
+      // Add search method indicator
+      const searchMethod = vectorRank >= 0 && bm25Rank >= 0 ? 'Hybrid' :
+                          vectorRank >= 0 ? 'Semantic' : 'Keyword'
+
       return {
         ...candidate,
         score: Math.round(rerank_score * 100),
-        explanation: matches.length > 0
-          ? `Strong match: ${matches.join(' • ')}`
-          : 'Semantic similarity match',
+        explanation: `[${searchMethod}] ${explanation}`,
         score_breakdown
       }
     })
+  }
+
+  private async relaxedBm25Search(query: string, intent: QueryIntent, limit: number): Promise<Candidate[]> {
+    try {
+      // More relaxed search - just keywords without strict filtering
+      const searchTerms = [
+        ...intent.must_have_keywords,
+        ...intent.nice_to_have_keywords,
+        query
+      ].filter(Boolean).join(' ')
+
+      console.log('🔤 Relaxed BM25 search terms:', searchTerms)
+
+      // Only add region preference (not requirement) if specified
+      const softFilters = []
+      if (intent.regions.length > 0) {
+        // Use regions as ranking factors rather than strict filters
+        const regionBoost = intent.regions
+          .map(region => `regions:${region}^2`)
+          .join(' OR ')
+      }
+
+      const searchParams = {
+        q: searchTerms || query,
+        query_by: 'combined_text,full_name,headline,skills', // Fixed: only use available schema fields
+        per_page: limit,
+        sort_by: '_text_match:desc'
+        // No strict filters - rely on ranking
+      }
+
+      console.log('🔤 Relaxed BM25 search params:', searchParams)
+
+      const results = await typesenseClient
+        .collections('candidates')
+        .documents()
+        .search(searchParams)
+
+      console.log('🔤 Relaxed BM25 search results:', {
+        found: results.found,
+        out_of: results.out_of,
+        hits_count: results.hits?.length || 0
+      })
+
+      const candidates = (results.hits || [])
+        .map(hit => hit.document as Candidate)
+        .filter(Boolean)
+
+      console.log(`🔤 Relaxed BM25 search: ${candidates.length} results`)
+      return candidates
+
+    } catch (error) {
+      console.error('❌ Relaxed BM25 search failed:', error)
+      return []
+    }
+  }
+
+  private deduplicateCandidates(candidates: Candidate[]): Candidate[] {
+    const seen = new Set<string>()
+    const unique: Candidate[] = []
+
+    for (const candidate of candidates) {
+      if (!seen.has(candidate.id)) {
+        seen.add(candidate.id)
+        unique.push(candidate)
+      }
+    }
+
+    console.log(`🔧 Deduplicated ${candidates.length} → ${unique.length} candidates`)
+    return unique
   }
 }

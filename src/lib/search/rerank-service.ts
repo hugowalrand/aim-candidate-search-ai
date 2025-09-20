@@ -117,22 +117,31 @@ export class RerankService {
 
   private createRerankSnippet(candidate: Candidate): string {
     // Create a focused snippet for reranking (~500-800 chars)
-    // Include key identity and signal information
+    // Prioritize topical relevance and domain expertise
 
     const parts = [
       candidate.full_name,
       candidate.headline,
+
+      // Include ALL skills to maximize topical matching potential
+      candidate.skills?.length ? `Skills: ${candidate.skills.join(', ')}` : null,
+
+      // Include key attributes
       `${candidate.tech_cofounder ? 'Technical co-founder' : 'Non-technical'}`,
-      candidate.fundraising_stage ? `Fundraising: ${candidate.fundraising_stage}` : null,
+      candidate.fundraising_stage && candidate.fundraising_stage !== 'None' ? `Fundraising: ${candidate.fundraising_stage}` : null,
       candidate.regions?.length ? `Regions: ${candidate.regions.join(', ')}` : null,
-      candidate.skills?.slice(0, 5).join(', '), // Top 5 skills only
-      candidate.notes?.substring(0, 200), // First 200 chars of notes
-      candidate.cv_text?.substring(0, 300) // First 300 chars of CV
+
+      // Include more contextual information for better topical matching
+      candidate.tags?.length ? `Tags: ${candidate.tags.join(', ')}` : null,
+
+      // Extract key context from CV/notes - prioritize first portion which usually contains role/company info
+      candidate.cv_text?.substring(0, 400), // Increased CV context
+      candidate.notes?.substring(0, 150) // Focused notes context
     ]
 
     return parts
       .filter(Boolean)
       .join(' • ')
-      .substring(0, 800) // Ensure we stay within context limits
+      .substring(0, 1200) // Increased context limit for better matching
   }
 }

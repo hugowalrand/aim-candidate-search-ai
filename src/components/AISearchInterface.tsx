@@ -21,6 +21,8 @@ interface AISearchResult {
     bm25_score: number
     vector_score: number
     rerank_score: number
+    keyword_match_ratio?: number
+    intent_match_ratio?: number
     regional_match: number
     fundraising_match: number
     technical_match: number
@@ -276,43 +278,112 @@ export default function AISearchInterface({ onAddToShortlist, shortlist }: Props
                   </div>
                 </div>
 
-                {/* AI Reasoning */}
-                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-                  <p className="text-sm">
-                    <strong className="text-yellow-800">Why this candidate matches:</strong>
-                    <span className="text-yellow-700 ml-2">{candidate.explanation}</span>
-                  </p>
+                {/* Enhanced AI Reasoning */}
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+                  <h4 className="text-sm font-semibold text-yellow-800 mb-2">🤖 AI Matching Analysis</h4>
+                  <div className="text-sm text-yellow-700 space-y-1">
+                    {candidate.explanation.split('|').map((part, idx) => (
+                      <div key={idx} className="flex items-start">
+                        <span className="mr-2">•</span>
+                        <span>{part.trim()}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                {/* Advanced Search Scores */}
+                {/* Detailed Search Analysis */}
                 {candidate.score_breakdown && (
-                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 mb-4">
-                    <h4 className="text-xs font-medium text-gray-700 mb-2">🔍 Production Hybrid Search Scores</h4>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
-                      {candidate.score_breakdown.bm25_score !== undefined && (
-                        <div>
-                          <span className="text-gray-600">BM25:</span>
-                          <span className="font-mono ml-1">{candidate.score_breakdown.bm25_score.toFixed(3)}</span>
+                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
+                    <h4 className="text-sm font-medium text-gray-700 mb-3">📊 Detailed Search Analysis</h4>
+
+                    {/* Match Quality Indicators */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                      <div className="space-y-2">
+                        <h5 className="text-xs font-semibold text-gray-600 uppercase tracking-wide">Match Quality</h5>
+
+                        {candidate.score_breakdown.keyword_match_ratio !== undefined && (
+                          <div className="flex justify-between items-center">
+                            <span className="text-xs text-gray-600">Query Term Match:</span>
+                            <div className="flex items-center">
+                              <div className="w-16 h-2 bg-gray-200 rounded-full mr-2">
+                                <div
+                                  className="h-2 bg-blue-500 rounded-full"
+                                  style={{ width: `${candidate.score_breakdown.keyword_match_ratio * 100}%` }}
+                                ></div>
+                              </div>
+                              <span className="font-mono text-xs">{Math.round(candidate.score_breakdown.keyword_match_ratio * 100)}%</span>
+                            </div>
+                          </div>
+                        )}
+
+                        {candidate.score_breakdown.intent_match_ratio !== undefined && (
+                          <div className="flex justify-between items-center">
+                            <span className="text-xs text-gray-600">Core Requirements:</span>
+                            <div className="flex items-center">
+                              <div className="w-16 h-2 bg-gray-200 rounded-full mr-2">
+                                <div
+                                  className="h-2 bg-green-500 rounded-full"
+                                  style={{ width: `${candidate.score_breakdown.intent_match_ratio * 100}%` }}
+                                ></div>
+                              </div>
+                              <span className="font-mono text-xs">{Math.round(candidate.score_breakdown.intent_match_ratio * 100)}%</span>
+                            </div>
+                          </div>
+                        )}
+
+                        <div className="flex justify-between items-center">
+                          <span className="text-xs text-gray-600">Regional Fit:</span>
+                          <div className="flex items-center">
+                            <div className="w-16 h-2 bg-gray-200 rounded-full mr-2">
+                              <div
+                                className="h-2 bg-purple-500 rounded-full"
+                                style={{ width: `${candidate.score_breakdown.regional_match * 100}%` }}
+                              ></div>
+                            </div>
+                            <span className="font-mono text-xs">{Math.round(candidate.score_breakdown.regional_match * 100)}%</span>
+                          </div>
                         </div>
-                      )}
-                      {candidate.score_breakdown.vector_score !== undefined && (
-                        <div>
-                          <span className="text-gray-600">Vector:</span>
-                          <span className="font-mono ml-1">{candidate.score_breakdown.vector_score.toFixed(3)}</span>
+                      </div>
+
+                      <div className="space-y-2">
+                        <h5 className="text-xs font-semibold text-gray-600 uppercase tracking-wide">Search Algorithm</h5>
+
+                        <div className="flex justify-between items-center">
+                          <span className="text-xs text-gray-600">Keyword Search (BM25):</span>
+                          <span className="font-mono text-xs">{candidate.score_breakdown.bm25_score.toFixed(3)}</span>
                         </div>
-                      )}
-                      {candidate.score_breakdown.rerank_score !== undefined && (
-                        <div>
-                          <span className="text-gray-600">Rerank:</span>
-                          <span className="font-mono ml-1">{candidate.score_breakdown.rerank_score.toFixed(3)}</span>
+
+                        <div className="flex justify-between items-center">
+                          <span className="text-xs text-gray-600">Semantic Search:</span>
+                          <span className="font-mono text-xs">{candidate.score_breakdown.vector_score.toFixed(3)}</span>
                         </div>
-                      )}
-                      {candidate.score_breakdown.final_score !== undefined && (
-                        <div>
-                          <span className="text-gray-600">Final:</span>
-                          <span className="font-mono ml-1 font-medium">{candidate.score_breakdown.final_score.toFixed(3)}</span>
+
+                        <div className="flex justify-between items-center">
+                          <span className="text-xs text-gray-600">AI Reranking:</span>
+                          <span className="font-mono text-xs">{candidate.score_breakdown.rerank_score.toFixed(3)}</span>
                         </div>
-                      )}
+
+                        <div className="flex justify-between items-center border-t pt-2">
+                          <span className="text-xs font-medium text-gray-700">Final Score:</span>
+                          <span className="font-mono text-xs font-bold">{candidate.score_breakdown.final_score.toFixed(3)}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Attribute Matches */}
+                    <div className="grid grid-cols-2 gap-2 text-xs">
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Technical:</span>
+                        <span className={`font-medium ${candidate.score_breakdown.technical_match > 0.5 ? 'text-green-600' : 'text-red-600'}`}>
+                          {candidate.score_breakdown.technical_match > 0.5 ? '✓' : '✗'}
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Fundraising:</span>
+                        <span className={`font-medium ${candidate.score_breakdown.fundraising_match > 0.5 ? 'text-green-600' : 'text-red-600'}`}>
+                          {candidate.score_breakdown.fundraising_match > 0.5 ? '✓' : '✗'}
+                        </span>
+                      </div>
                     </div>
                   </div>
                 )}

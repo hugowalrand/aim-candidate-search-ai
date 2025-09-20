@@ -1,5 +1,5 @@
 // Production ingestion service for Typesense + Voyage embeddings
-import { loadProfilesFromCSV } from './data-loader'
+import { loadProfilesFromCSV, loadRawCSVData } from './data-loader'
 import { transformCandidateData } from './data-transformer'
 import { EmbeddingService, createCombinedText } from './search/embedding-service'
 import { typesenseClient, initializeTypesense } from './search/typesense-client'
@@ -22,39 +22,84 @@ export class IngestionService {
       await initializeTypesense()
 
       // Step 2: Load and transform raw data
-      console.log('📂 Loading profiles from CSV...')
-      const rawProfiles = loadProfilesFromCSV()
-      console.log(`📊 Loaded ${rawProfiles.length} raw profiles`)
+      console.log('📂 Loading raw CSV data...')
+      const rawCSVRows = loadRawCSVData()
+      console.log(`📊 Loaded ${rawCSVRows.length} raw CSV rows`)
 
       // Transform to candidate format
       const candidates: Candidate[] = []
-      for (const rawProfile of rawProfiles) {
-        const candidate = transformCandidateData(rawProfile)
+      for (const rawRow of rawCSVRows) {
+        const candidate = transformCandidateData(rawRow)
         if (candidate) {
           candidates.push(candidate)
         } else {
-          errors.push(`Failed to transform profile: ${rawProfile['First name']} ${rawProfile['Last name']}`)
+          errors.push(`Failed to transform profile: ${rawRow['First name']} ${rawRow['Last name']}`)
         }
       }
 
       console.log(`✅ Transformed ${candidates.length} candidates`)
 
-      // Step 3: Prepare candidates (skip embeddings for now due to API limits)
-      console.log('⚡ Preparing candidates for BM25-only search (skipping embeddings)')
+      // Step 3: Prepare candidates (prioritize BM25 reliability)
+      console.log('⚡ Preparing candidates with conservative embedding approach...')
       const candidatesWithEmbeddings: Candidate[] = []
 
-      // Add all candidates with empty embeddings for BM25-only search
+      // First ensure all candidates have proper combined_text for BM25 search
       candidates.forEach(candidate => {
-        // Ensure combined_text is set for BM25 search
+        // Ensure combined_text is set for reliable BM25 search
         if (!candidate.combined_text) {
           candidate.combined_text = createCombinedText(candidate)
         }
-        // Set empty embedding for now
+        // Start with empty embedding (BM25-only)
         candidate.embedding = []
         candidatesWithEmbeddings.push(candidate)
       })
 
-      console.log(`✅ Prepared ${candidatesWithEmbeddings.length} candidates for BM25 search`)
+      console.log(`✅ Prepared ${candidatesWithEmbeddings.length} candidates for reliable BM25 search`)
+
+      // Generate embeddings for professional search quality
+      if (process.env.VOYAGE_API_KEY) {
+        console.log('🧠 Generating embeddings for professional-grade search...')
+        console.log(`📊 Processing ${candidatesWithEmbeddings.length} candidates in batches`)
+
+        let processedCount = 0
+        const batchSize = 5 // Increased batch size for faster processing
+        const totalBatches = Math.ceil(candidatesWithEmbeddings.length / batchSize)
+
+        for (let i = 0; i < candidatesWithEmbeddings.length; i += batchSize) {
+          const batch = candidatesWithEmbeddings.slice(i, i + batchSize)
+          const batchNumber = Math.floor(i / batchSize) + 1
+
+          try {
+            const texts = batch.map(c => c.combined_text)
+            const embeddings = await this.embeddingService.generateDocumentEmbeddings(texts)
+
+            // Assign embeddings to candidates
+            batch.forEach((candidate, batchIndex) => {
+              if (embeddings[batchIndex] && embeddings[batchIndex].length > 0) {
+                candidate.embedding = embeddings[batchIndex]
+                processedCount++
+              }
+            })
+
+            console.log(`✅ Embedded batch ${batchNumber}/${totalBatches} (${processedCount}/${candidatesWithEmbeddings.length} completed)`)
+
+            // Rate limiting between batches
+            if (i + batchSize < candidatesWithEmbeddings.length) {
+              await new Promise(resolve => setTimeout(resolve, 2000)) // Reduced to 2 second delay
+            }
+
+          } catch (error) {
+            console.log(`⚠️ Embedding failed for batch ${batchNumber}, continuing...`)
+            // Continue processing other batches
+          }
+        }
+
+        console.log(`🎯 Embedding generation complete: ${processedCount}/${candidatesWithEmbeddings.length} candidates embedded`)
+      } else {
+        console.log('⚠️ No Voyage API key - embeddings disabled, using keyword search only')
+      }
+
+      console.log(`✅ Final preparation complete - BM25 guaranteed, embeddings bonus`)
 
       // Step 4: Upsert to Typesense in batches
       console.log('📤 Uploading to Typesense...')

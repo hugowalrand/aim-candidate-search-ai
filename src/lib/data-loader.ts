@@ -21,12 +21,49 @@ export interface RawCSVRow {
   'Tripped LLM or AIM Screens /2': string
   'Unique ID': string
   'Please use the check-boxes below to indicate any other relevant experience you might have. Please check all that apply.': string
+  'Please use the check-boxes below to indicate your level of experience building tech. Only include things you have done (or you\'re very confident you could do) by yourself, from start to finish. Select all options that apply.': string
+  'Please use the check-boxes below to indicate your level of experience with AI, LLMs, and machine learning technologies. Please check all that apply.': string
+  'Please use the check-boxes below to indicate your level of experience as a founder. Please check all that apply.': string
   'If you made $150,000 USD in salary per year, how much would you donate to charity, to which exact organization(s), and why to these in particular?': string
   'Please rank the following four factors from most important to least important in evaluating the potential of a startup idea during the program: (A) Personal fit with idea (B) Total addressable market (C) Number of competitors in the market (D) Demonstrated customer willingness to pay. Please describe your reasoning for your ranking - we\'re interested to understand your thinking.': string
   [key: string]: string
 }
 
 let cachedProfiles: Profile[] | null = null
+let cachedRawRows: RawCSVRow[] | null = null
+
+// Clear cache for testing
+cachedProfiles = null
+cachedRawRows = null
+
+export function loadRawCSVData(): RawCSVRow[] {
+  if (cachedRawRows) {
+    return cachedRawRows
+  }
+
+  try {
+    const csvPath = path.join(process.cwd(), '..', 'test-data.csv')
+    const csvContent = fs.readFileSync(csvPath, 'utf-8')
+
+    const parseResult = Papa.parse(csvContent, {
+      header: true,
+      skipEmptyLines: true,
+    })
+
+    const rawRows = parseResult.data as RawCSVRow[]
+
+    // For testing: limit to first 100 candidates to speed up embedding generation
+    const limitedRows = rawRows.slice(0, 100)
+    cachedRawRows = limitedRows
+
+    console.log(`Loaded ${rawRows.length} raw CSV rows, limited to ${limitedRows.length} for testing`)
+    return limitedRows
+
+  } catch (error) {
+    console.error('Failed to load raw CSV data:', error)
+    return []
+  }
+}
 
 export function loadProfilesFromCSV(): Profile[] {
   if (cachedProfiles) {

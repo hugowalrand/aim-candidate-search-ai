@@ -129,17 +129,21 @@ function extractSkills(row: RawCSVRow): string[] {
 
   // Technical skills
   const techExp = row['Please use the check-boxes below to indicate your level of experience building tech. Only include things you have done (or you\'re very confident you could do) by yourself, from start to finish. Select all options that apply.'] || ''
-  if (techExp.includes('Full stack')) skills.add('Full Stack Development')
-  if (techExp.includes('Frontend')) skills.add('Frontend Development')
-  if (techExp.includes('Backend')) skills.add('Backend Development')
-  if (techExp.includes('Mobile')) skills.add('Mobile Development')
-  if (techExp.includes('DevOps')) skills.add('DevOps')
+
+  // Match actual checkbox patterns from CSV data
+  if (techExp.includes('backend with a database') || techExp.includes('Backend')) skills.add('Backend Development')
+  if (techExp.includes('mobile app') || techExp.includes('Mobile')) skills.add('Mobile Development')
+  if (techExp.includes('marketing / lead generation website') || techExp.includes('Frontend')) skills.add('Frontend Development')
+  if (techExp.includes('system architecture') || techExp.includes('Full stack')) skills.add('Full Stack Development')
+  if (techExp.includes('automations using No-Code') || techExp.includes('DevOps')) skills.add('DevOps')
 
   // AI/ML skills
   const aiExp = row['Please use the check-boxes below to indicate your level of experience with AI, LLMs, and machine learning technologies. Please check all that apply.'] || ''
-  if (aiExp.includes('LLM')) skills.add('LLM/AI')
-  if (aiExp.includes('Machine Learning')) skills.add('Machine Learning')
-  if (aiExp.includes('Data Science')) skills.add('Data Science')
+
+  // Match actual AI/ML checkbox patterns from CSV data
+  if (aiExp.includes('generating text using ChatGPT') || aiExp.includes('Co-Pilot during development') || aiExp.includes('LLM')) skills.add('LLM/AI')
+  if (aiExp.includes('research or open-source projects on AI or ML') || aiExp.includes('Machine Learning')) skills.add('Machine Learning')
+  if (aiExp.includes('image recognition, natural language processing, or time-series forecasting') || aiExp.includes('Data Science')) skills.add('Data Science')
 
   // Founder skills
   const founderExp = row['Please use the check-boxes below to indicate your level of experience as a founder. Please check all that apply.'] || ''

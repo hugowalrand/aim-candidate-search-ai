@@ -28,7 +28,7 @@ export const CANDIDATES_COLLECTION_SCHEMA = {
     { name: 'tags', type: 'string[]', optional: true, facet: true },
     { name: 'years_experience', type: 'int32', optional: true },
     { name: 'combined_text', type: 'string' },           // For BM25 search
-    { name: 'embedding', type: 'float[]' }               // For vector search
+    { name: 'embedding', type: 'float[]', num_dim: 1536 } // For vector search
   ],
   default_sorting_field: 'full_name'
 } as const

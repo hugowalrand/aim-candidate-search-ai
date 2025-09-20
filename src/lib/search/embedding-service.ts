@@ -21,7 +21,7 @@ interface VoyageEmbedResponse {
 
 export class EmbeddingService {
   private readonly apiKey: string
-  private readonly model = 'voyage-3-large'
+  private readonly model = 'voyage-large-2'
   private lastRequestTime = 0
   private readonly rateLimitDelay = 3000 // 3 seconds between requests
 
@@ -126,7 +126,7 @@ export class EmbeddingService {
           body: JSON.stringify({
             input: [query],
             model: this.model,
-            input_type: 'query',
+            input_type: 'document', // Use 'document' to match document embeddings dimensions
             truncation: true
           } as VoyageEmbedRequest)
         })
@@ -139,6 +139,9 @@ export class EmbeddingService {
 
         const embedding = data.data[0]?.embedding || []
         console.log(`✅ Generated query embedding (${data.usage.total_tokens} tokens)`)
+        console.log(`🧠 Query embedding dimensions: ${embedding.length}, expected: 1536`)
+        console.log(`🧠 Model used: ${data.model}`)
+        console.log(`🧠 First few embedding values:`, embedding.slice(0, 3))
         return embedding
       })
 
