@@ -1,0 +1,87 @@
+================================================================================
+JONAH WEISSMAN
+Technical Co-founder • Preseed Experience • Europe
+ID: EYL1FX5N
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: jonahrweissman@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/jonahweissman/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Europe, North America
+🛠️ Skills: Backend Development • Mobile Development • Full Stack Development • DevOps • LLM/AI • Machine Learning • Data Science • Startup Experience
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Jonah Weissman
+
+Technical Co-founder • Preseed Experience • Europe
+
+Regions: Europe, North America
+
+Fundraising: Preseed
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder, fundraising_experience
+
+Backend Development, Mobile Development, Full Stack Development, DevOps, LLM/AI, Machine Learning, Data Science, Startup Experience
+
+I’ve made my own miso paste. The process took almost a full year and required building a temperature and humidity controlled chamber with a modified humidifier.
+
+I had the good fortune to be in a very similar situation to this question last year. I donated $50,000 to charity via the Ambitious Impact Charity Entrepreneurship charity seed funding program. I gave $10k to Ark Philanthropy and $40k to The Center for Feed Innovation. I wanted to have a large positive impact on the world with my charitable giving, and I was excited by the high counterfactual value of seed funding and the related riskiness of a new venture that might turn off large philanthropic organizations, especially in the neglected cause area of animal welfare. Ark Philanthropy and Center for Feed Innovation both appealed to me because they represented high risk high reward opportunities for impact beyond the usual Charity Entrepreneurship formula. Betting on Ark’s August Hochman to build trust as a donor advisor to her network wasn’t an obvious winner, but it has paid off. I initially granted $40k to Ark, but reduced my grant when I saw that other funders had offered Ark money far beyond the minimum needed to test the idea, which I thought would be much less valuable on the margins. I moved the money to Center for Feed Innovation, which appealed to me as an experiment identifying a one-sided policy conversation that was lacking an advocate for animal welfare. I was impressed with Oisín’s and Aashish’s background, and their expected value in terms of suffering reduced was excellent even with a fairly conservative estimate of their influence.
+
+All of these are very important factors, but if forced to choose, I would rank them (from most to least important) Number of competitors, Personal fit, Total addressable market, followed by Demonstrated customer willingness to pay.
+
+Building a product that customers value is very important to me, but I’m open to taking risks on products that are novel in ways that make demonstrating willingness to pay challenging. Losing a bet on willingness to pay could still result in a large user base that could make for an appealing acquisition for a company with a unique angle for monetization.
+
+Having a large total addressable market makes success easier and large-scale success possible. However, conditional on me founding one company, my chances of founding additional companies is much higher, and I’m willing to compromise on the scale of my first company if it means fewer competitors or a better match to my abilities.
+
+I would really struggle to build a company that doesn’t match my skillset or values. Given the tech and altruistic leanings of the Founding To Give program, I’m not terribly worried about either of these factors. I have broad experiences across different sectors and I love learning about new industries, but a product where I can’t relate to the customer would be a real challenge for me.
+
+The single biggest factor for my decision is the number of competitors. The number of competitors is an indicator for the ease of entering a market. A market that is too easy to enter will make for a punishing business climate with steep competition around attracting customers. I’m more attracted to an idea that is less obvious or harder to pull off than a frantic race to do something straightforward as quickly as possible.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Jonah Weissman
+
+Email: jonahrweissman@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/jonahweissman/
+
+EXPERIENCE
+
+Technical: create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+design a system architecture for a scalable/distributed application
+
+Founder: I do not have experience as a founder.
+
+Other: I have worked for an early-stage venture-backed startup (pre-Series B)
+
+ACCOMPLISHMENTS
+
+I’ve made my own miso paste. The process took almost a full year and required building a temperature and humidity controlled chamber with a modified humidifier.
+
+PHILANTHROPIC INTERESTS
+
+I had the good fortune to be in a very similar situation to this question last year. I donated $50,000 to charity via the Ambitious Impact Charity Entrepreneurship charity seed funding program. I gave $10k to Ark Philanthropy and $40k to The Center for Feed Innovation. I wanted to have a large positive impact on the world with my charitable giving, and I was excited by the high counterfactual value of seed funding and the related riskiness of a new venture that might turn off large philanthropic organizations, especially in the neglected cause area of animal welfare. Ark Philanthropy and Center for Feed Innovation both appealed to me because they represented high risk high reward opportunities for impact beyond the usual Charity Entrepreneurship formula. Betting on Ark’s August Hochman to build trust as a donor advisor to her network wasn’t an obvious winner, but it has paid off. I initially granted $40k to Ark, but reduced my grant when I saw that other funders had offered Ark money far beyond the minimum needed to test the idea, which I thought would be much less valuable on the margins. I moved the money to Center for Feed Innovation, which appealed to me as an experiment identifying a one-sided policy conversation that was lacking an advocate for animal welfare. I was impressed with Oisín’s and Aashish’s background, and their expected value in terms of suffering reduced was excellent even with a fairly conservative estimate of their influence.
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

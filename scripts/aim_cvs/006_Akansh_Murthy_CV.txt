@@ -1,0 +1,93 @@
+================================================================================
+AKANSH MURTHY
+Technical Co-founder • Seed Experience • Asia Pacific
+ID: OAF1XYYI
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: akanshnm@gmail.com
+🔗 LinkedIn: www.linkedin.com/in/akanshmurthy
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 3
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Seed
+🌍 Regional Experience: Asia Pacific, North America
+🛠️ Skills: Backend Development • Mobile Development • Frontend Development • Full Stack Development • DevOps • LLM/AI • Machine Learning • Data Science • Domain Expertise
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Akansh Murthy
+
+Technical Co-founder • Seed Experience • Asia Pacific
+
+Regions: Asia Pacific, North America
+
+Fundraising: Seed
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder
+
+Backend Development, Mobile Development, Frontend Development, Full Stack Development, DevOps, LLM/AI, Machine Learning, Data Science, Domain Expertise
+
+I recently climbed Mt. Rainier amidst tough conditions (white-out blizzard, 50+mph winds, and changing routes due to icefall). Half of our group turned back at midway point (Camp Muir) and even more turned back later on. The guides weren't sure I'd make it but I surprised them with my resilience :)
+
+One of them was startup seed funding through an accelerator that I enabled with my connections through hackathons and college programs. Another set of funds was for a nonprofit through foundation/fellowship grants that I directly applied for.
+
+I would first determine how much I need to live comfortably, meaning all my recurring expenses, investments, emergency fund contributions, etc. are taken care of. After subtracting that amount and taxes from $150k, I'd donate the rest. The organization I'd donate to would have to be both ambitious and effective. Ambition is less tangible but could include things like intentions, motivations, and vision. Effectiveness is more easily measurable with metrics such as lives saved, diseases prevented, etc., as relevant to the organization. An example of an effective organization with an ambitious mission is Against Malaria.
+
+A>C>B>D
+
+A) If I'm not hugely passionate about the idea and don't feel a fit, I'm not likely to commit the time or energy required. I also feel that if I'm passionate about the idea or cause, I'm willing to persevere longer, sacrifice more, and fight harder.
+
+C) Once I'm passionate about something, I think the next factor to consider is how saturated the market is. If there are many competitors, perhaps the idea is not novel or it'll be harder to penetrate that market. If there are few competitors, then perhaps the idea is more unique but the market has higher barriers to entry. Either way, the number of competitors will provide some insights into tradeoffs that might need to be made. 
+
+B) Then, I'd consider the market size; if the size of the market is very small, there's potentially less opportunity for impact. However, it could be that the market is small now but is growing and could be really big in the future due to industry trends. Or the market could be huge already allowing for outsized impact now. 
+
+D) Lastly, the proof of viability of a product is revenue. If people aren't willing to pay for something, then the idea probably needs refinement. I'd consider this last because competition and market size is easier to assess with less effort. Assessing customer willingness to pay requires more effort (early prototype or concept formation, time to survey, etc.) and could be a wasted effort if the above items raise any red flags.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Akansh Murthy
+
+Email: akanshnm@gmail.com
+
+LinkedIn: www.linkedin.com/in/akanshmurthy
+
+EXPERIENCE
+
+Technical: build a marketing / lead generation website
+create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+design a system architecture for a scalable/distributed application
+
+Founder: I have founded another type of company that has generated more than 100K USD in revenue
+I have founded a nonprofit.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+I have worked for a tech scaleup (Series B - IPO/exit)
+I have experience operating in emerging markets
+
+ACCOMPLISHMENTS
+
+I recently climbed Mt. Rainier amidst tough conditions (white-out blizzard, 50+mph winds, and changing routes due to icefall). Half of our group turned back at midway point (Camp Muir) and even more turned back later on. The guides weren't sure I'd make it but I surprised them with my resilience :)
+
+PHILANTHROPIC INTERESTS
+
+I would first determine how much I need to live comfortably, meaning all my recurring expenses, investments, emergency fund contributions, etc. are taken care of. After subtracting that amount and taxes from $150k, I'd donate the rest. The organization I'd donate to would have to be both ambitious and effective. Ambition is less tangible but could include things like intentions, motivations, and vision. Effectiveness is more easily measurable with metrics such as lives saved, diseases prevented, etc., as relevant to the organization. An example of an effective organization with an ambitious mission is Against Malaria.
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

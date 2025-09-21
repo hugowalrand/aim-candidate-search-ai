@@ -1,0 +1,78 @@
+================================================================================
+JOCHEM GIETEMA
+Technical Co-founder • Preseed Experience • Asia Pacific
+ID: UO3VG57B
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: jochem@giete.ma
+🔗 LinkedIn: https://www.linkedin.com/in/gietema/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Asia Pacific, Europe, North America
+🛠️ Skills: Backend Development • Mobile Development • DevOps • LLM/AI • Machine Learning • Data Science • Domain Expertise • Management
+
+COMPLETE PROFILE
+------------------------------
+Jochem Gietema 
+ Technical Co-founder • Preseed Experience • Asia Pacific 
+ Regions: Asia Pacific, Europe, North America 
+ Fundraising: Preseed 
+ Technical: Yes 
+ Tags: AIM_2024, technical_cofounder, fundraising_experience 
+ Backend Development, Mobile Development, DevOps, LLM/AI, Machine Learning, Data Science, Domain Expertise, Management 
+ I developed a Python data visualisation library that is used daily at multiple computer vision companies (>500M combined funding). I'm proud of it because it demonstrates that I can build something people want and that provides value on a day-to-day basis for employees with high standards.
+
+The answer to the question is highly dependent on living conditions (job security, location, etc).Now, some money is required to maintain a stable and healthy life so that donations can continue in the future. I'm furthermore assuming the following:- The average income in London would provide this stability and health- My job is stable, so I don't need to save much in case I lose my job- Living in London is a requirement for the job (just taking my own home town as an example).- Learning is mostly free, so not a lot of money is needed to grow professionally and earn more in the future.The median salary in London is $64.8K annually, leading to a take-home income of roughly $4.3K per month. Assuming the gross income is $150,000, the take-home income is roughly $8,000 per month. This means that, given the above assumptions, one can donate $3.7K (8K - 4.3K = 3.7K) per month or $44,400 per year, by living like the median person in London, which seems reasonable.This reasoning is further supported by the fact that William MacAskill uses a similar line of reasoning. I'm assigning significant weight to his judgment here, given the amount of time he has spent thinking about this problem.Specialising for my own situation, this is not what I am currently doing. I mostly save this money (donating about 5% of my income), assuming that I will take a career break to start a company, which will hopefully lead to more donations in the future.Regarding what to donate to, I tend to follow the Giving What We Can recommendations, where I personally donate to theglobal health and wellbeing, and animal welfare funds. Although their long-term risk and resilience fund is also an option, I do not donate to them given that I value the their long-term impact judgment about e.g. AI
+
+1. Demonstrated customer willingness to pay.
+
+I think that this is an excellent indicator of the potential success of a company. It proves that there is actual value that is already being offered, that customers actually like what you're making; it is more concrete than the other factors. I am emphasising 'demonstrated' here; mere interest is easy to gather, especially with an idea that sounds compelling on paper. I am assuming that 'demonstrated willingness to pay' is as close as possible to actual revenue, which is, in the end, what determines the success of a company.
+
+2. Personal fit - a close second. A startup is a marathon, not a sprint. Without a good personal fit, it won't be easy to maintain motivation over time, which I do think is crucial for success. I believe that founders who are obsessed with an idea are most likely to succeed, and that this is a massive edge over companies where founders are not fully committed to an idea. Note that here I am interpreting personal fit as the ability to be obsessed with an idea and making things work. I am not interpreting personal fit as having domain expertise, which I think is important but can be acquired over time, especially with enough 'obsession'. 
+
+3. Total addressable market. Of course, a market that is too small will limit the potential of a business. But with creativity, persistence and paying customers, one can often find ways to shift product development in a way that increases the addressable market, by vertical or horizontal scaling of product lines, and solving more problems for existing customers. If you're solving a problem in a small market well, it'll be easier to solve different problems for the same customers. Or you can find ways to find new customers. 
+
+4. Number of competitors in the market. Although a large number of competitors in a market makes it more difficult to add additional value, I do think that this is the least essential item compared to the others. If you're inventive, persistent, and execute well, I believe that gaps can be found in a market; markets are not efficient, and competitors seldom offer something perfect for every potential customer. 
+ CANDIDATE PROFILE
+Jochem Gietema
+
+Email: jochem@giete.ma
+
+LinkedIn: https://www.linkedin.com/in/gietema/
+
+EXPERIENCE
+
+Technical: create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+
+Founder: I have founded another type of company that has generated more than 100K USD in revenue
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+I have worked for a tech scaleup (Series B - IPO/exit)
+I have managed a team of more than 5 people
+
+ACCOMPLISHMENTS
+
+I developed a Python data visualisation library that is used daily at multiple computer vision companies (>500M combined funding). I'm proud of it because it demonstrates that I can build something people want and that provides value on a day-to-day basis for employees with high standards.
+
+PHILANTHROPIC INTERESTS
+
+The answer to the question is highly dependent on living conditions (job security, location, etc).Now, some money is required to maintain a stable and healthy life so that donations can continue in the future. I'm furthermore assuming the following:- The average income in London would provide this stability and health- My job is stable, so I don't need to save much in case I lose my job- Living in London is a requirement for the job (just taking my own home town as an example).- Learning is mostly free, so not a lot of money is needed to grow professionally and earn more in the future.The median salary in London is $64.8K annually, leading to a take-home income of roughly $4.3K per month. Assuming the gross income is $150,000, the take-home income is roughly $8,000 per month. This means that, given the above assumptions, one can donate $3.7K (8K - 4.3K = 3.7K) per month or $44,400 per year, by living like the median person in London, which seems reasonable.This reasoning is further supported by the fact that William MacAskill uses a similar line of reasoning. I'm assigning significant weight to his judgment here, given the amount of time he has spent thinking about this problem.Specialising for my own situation, this is not what I am currently doing. I mostly save this money (donating about 5% of my income), assuming that I will take a career break to start a company, which will hopefully lead to more donations in the future.Regarding what to donate to, I tend to follow the Giving What We Can recommendations, where I personally donate to theglobal health and wellbeing, and animal welfare funds. Although their long-term risk and resilience fund is also an option, I do not donate to them given that I value the their long-term impact judgment about e.g. AI
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

@@ -1,0 +1,61 @@
+================================================================================
+ALEX KIM
+Junior Full-Stack Developer • React & Node.js • 2 years experience
+ID: junior-fullstack-1
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: alex.kim@test.com
+🔗 LinkedIn: https://linkedin.com/in/alex-kim-dev
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+🌍 Regional Experience: North America
+🛠️ Skills: Frontend Development • Backend Development • JavaScript • React • Node.js
+
+COMPLETE PROFILE
+------------------------------
+Alex Kim 
+ Junior Full-Stack Developer • React & Node.js • 2 years experience 
+ Regions: North America 
+ Fundraising: None 
+ Technical: Yes 
+ Tags: junior_developer, fullstack 
+ Frontend Development, Backend Development, JavaScript, React, Node.js 
+ Recent bootcamp graduate with 2 years experience building web applications. Strong foundation in modern JavaScript frameworks and eager to learn. 
+ CURRICULUM VITAE
+Alex Kim
+Email: alex.kim@test.com
+
+EXPERIENCE
+Software Developer, TechStartup Inc (2022-Present)
+- Built responsive web applications using React and TypeScript
+- Developed REST APIs with Node.js and Express
+- Worked with PostgreSQL databases and Redis caching
+- Participated in code reviews and agile development process
+
+Intern Software Developer, LocalCorp (2022)
+- Built internal tools using React and Python Flask
+- Learned version control with Git and deployment with Heroku
+
+EDUCATION
+Full-Stack Web Development Bootcamp, General Assembly (2022)
+BA Psychology, UCLA (2020)
+
+TECHNICAL SKILLS
+- Frontend: React, TypeScript, HTML/CSS, Tailwind
+- Backend: Node.js, Express, Python, Flask
+- Databases: PostgreSQL, MongoDB
+- Tools: Git, Docker, Heroku
+
+TAGS
+----------
+🏷️ junior_developer • fullstack
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

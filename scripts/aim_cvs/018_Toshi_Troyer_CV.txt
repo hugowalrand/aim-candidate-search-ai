@@ -1,0 +1,102 @@
+================================================================================
+TOSHI TROYER
+Technical Co-founder • Preseed Experience • Africa
+ID: JZY5GISV
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: tosh.troyer@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/toshi-troyer-tt22/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Africa, Middle East, Asia Pacific, Europe, Latin America, North America
+🛠️ Skills: Backend Development • Mobile Development • DevOps • LLM/AI • Data Science
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Toshi Troyer
+
+Technical Co-founder • Preseed Experience • Africa
+
+Regions: Africa, Middle East, Asia Pacific, Europe, Latin America, North America
+
+Fundraising: Preseed
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder, fundraising_experience
+
+Backend Development, Mobile Development, DevOps, LLM/AI, Data Science
+
+Through the Piedmont Community Service Crew, I helped raise $15,000 and contributed over 600 hours of service, leading projects that supported refugees, unhoused communities, and neighborhood restoration. I also built alumni involvement and continue mentoring new student leaders.
+
+I don’t have experience with commercial fundraising, but I have led small-scale philanthropic efforts.
+
+If I earned a $150,000 salary, I would donate around $10,000 to $15,000 annually, split between two organizations: Rebuilding Together Oakland and Kiva. I am passionate about addressing income inequality and supporting people in ways that promote long-term self-sufficiency. These two organizations reflect that mission in complementary ways. One is local, the other global, and both are rooted in a necessary understanding of the communities they serve. 
+
+Rebuilding Together Oakland is based in my own community and renovates homes for low-income families and elderly residents. I’ve had the opportunity to work and fundraise for them directly, and have seen how safe, stable housing can be the foundation for upward mobility. By repairing houses, their work helps people remain in their communities, maintain independence, and build futures where their families can thrive.
+
+Kiva complements this mission by providing microloans to individuals around the world who are working to start or grow small businesses. I’ve donated through Kiva before because it offers a direct way to support people building their own economic futures. While microfinance isn’t a perfect solution, Kiva delivers flexible support to those already working hard to improve life for themselves and their families.
+
+Both organizations focus on underserved populations, and I would choose to donate to them because they prioritize long-term agency over short-term relief. Earlier in this application, I selected “think globally, act locally” as a strategy I believe should be used more often in philanthropy. What I value about Rebuilding Together Oakland and Kiva is that each, in its own way, embodies both parts of that approach. RTO is rooted in local community work but contributes to broader systemic change by preserving housing stability and generational security. Kiva operates globally, but its model relies on community-level insight and individual initiative. Both reflect a commitment to supporting people from the inside out by meeting them where they are and equipping them to shape their own futures. 
+
+If I were selected for Founding to Give, I would want to build something that reflects those same values. My goal would be to create tools that support people in building long-term stability through systems that center their agency, their needs, and their lived experiences.
+
+I rank personal fit first because I want to build something I genuinely believe in and that serves the people it’s meant for. When I care about a problem, I am more focused and understand more clearly who I’m building for and why it matters.
+
+I rank number of competitors second because understanding who is already in the space is essential. Strong competition signals demand, but it’s just as important to find where existing solutions fall short and where I can offer something better. The travel industry, for example, is crowded, yet few companies prioritize the people who live in the places being visited. Most tourist spending goes to large international corporations, not local communities. This presents a strong opportunity with real demand to build a solution that helps travelers support locally owned services and experiences. The key is identifying spaces where there is strong demand and clear gaps to improve on.
+
+I rank total addressable market third. It matters, especially for long-term growth, but only after confirming that there’s a real problem and a strong solution. What matters most at the start is finding a clear and specific space in the market and growing from there. Once there is that entry point, total addressable market will be important in understanding how far the idea can scale.
+
+I rank customer willingness to pay fourth. If people are willing to pay, it can signal that the problem matters and the solution is viable. At the same time, I recognize that some impactful ideas may not show strong payment signs immediately, especially in underserved markets. I think it is still possible to build traction and eventually reach paying users by focusing on a specific, well-defined problem. If the product is useful and the need is there, I believe revenue can follow as value becomes clear.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Toshi Troyer
+
+Email: tosh.troyer@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/toshi-troyer-tt22/
+
+EXPERIENCE
+
+Technical: create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+
+Founder: I do not have experience as a founder.
+
+Other: I have none of the experience mentioned above
+
+ACCOMPLISHMENTS
+
+Through the Piedmont Community Service Crew, I helped raise $15,000 and contributed over 600 hours of service, leading projects that supported refugees, unhoused communities, and neighborhood restoration. I also built alumni involvement and continue mentoring new student leaders.
+
+PHILANTHROPIC INTERESTS
+
+If I earned a $150,000 salary, I would donate around $10,000 to $15,000 annually, split between two organizations: Rebuilding Together Oakland and Kiva. I am passionate about addressing income inequality and supporting people in ways that promote long-term self-sufficiency. These two organizations reflect that mission in complementary ways. One is local, the other global, and both are rooted in a necessary understanding of the communities they serve. 
+
+Rebuilding Together Oakland is based in my own community and renovates homes for low-income families and elderly residents. I’ve had the opportunity to work and fundraise for them directly, and have seen how safe, stable housing can be the foundation for upward mobility. By repairing houses, their work helps people remain in their communities, maintain independence, and build futures where their families can thrive.
+
+Kiva complements this mission by providing microloans to individuals around the world who are working to start or grow small businesses. I’ve donated through Kiva before because it offers a direct way to support people building their own economic futures. While microfinance isn’t a perfect solution, Kiva delivers flexible support to those already working hard to improve life for themselves and their families.
+
+Both organizations focus on underserved populations, and I would choose to donate to them because they prioritize long-term agency over short-term relief. Earlier in this application, I selected “think globally, act locally” as a strategy I believe should be used more often in philanthropy. What I value about Rebuilding Together Oakland and Kiva is that each, in its own way, embodies both parts of that approach. RTO is rooted in local community work but contributes to broader systemic change by preserving housing stability and generational security. Kiva operates globally, but its model relies on community-level insight and individual initiative. Both reflect a commitment to supporting people from the inside out by meeting them where they are and equipping them to shape their own futures. 
+
+If I were selected for Founding to Give, I would want to build something that reflects those same values. My goal would be to create tools that support people in building long-term stability through systems that center their agency, their needs, and their lived experiences.
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

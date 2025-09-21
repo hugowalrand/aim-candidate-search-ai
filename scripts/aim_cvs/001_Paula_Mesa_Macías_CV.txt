@@ -1,0 +1,102 @@
+================================================================================
+PAULA MESA MACÍAS
+Technical Co-founder • Seed Experience • Asia Pacific
+ID: WD95TNYL
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: pau@pau.company
+🔗 LinkedIn: https://www.linkedin.com/in/paulamesamacias/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 3
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Seed
+🌍 Regional Experience: Asia Pacific, Europe, Latin America, North America
+🛠️ Skills: Backend Development • Mobile Development • Frontend Development • Full Stack Development • DevOps • LLM/AI • Data Science • Domain Expertise
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Paula Mesa Macías
+
+Technical Co-founder • Seed Experience • Asia Pacific
+
+Regions: Asia Pacific, Europe, Latin America, North America
+
+Fundraising: Seed
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder
+
+Backend Development, Mobile Development, Frontend Development, Full Stack Development, DevOps, LLM/AI, Data Science, Domain Expertise
+
+I’m proud of moving to the UK, adapting to a new culture and language I didn’t speak before, and founding a value-driven organisation in a niche area despite personal difficulties. This experience challenged me and helped me grow both personally and professionally.
+
+I have experience securing individual donations through face-to-face fundraising campaigns for UNHCR and contributed to recruitment strategies that improved donor retention. Additionally, I have raised funds through client work at Pau&Company to reinvest in supporting mission-aligned projects that could not afford full-price services.
+
+If I earned $150,000 a year, I would aim to donate at least 30 percent of it. I already donate regularly to Sepheo, a cooperative of digital freelancers, and HacMan, the community hackspace in Manchester. I support them because they represent the kind of tech culture I believe in, collaborative and accessible.
+
+With a higher income, I would continue supporting them and also donate to a few organisations I have admired for years. One is the Free Software Foundation, which defends users rights and promotes open, ethical technology. Another is Tactical Tech, which helps people understand how digital technologies affect their rights and societies. I also think it is important to give to highly effective global charities, so I would put part of my donation towards GiveWell’s top recommendations in health and development.
+
+Finally, I would support infrastructure in the Effective Altruism space, like EA Funds or the Centre for Effective Altruism, because I believe in improving the quality of decisions and funding across the sector.
+
+This reflects both what I care about professionally, like ethical software and digital rights, and what I care about globally, like reducing suffering in the most effective way possible. Besides donating money, I already try to contribute time and skills through my work at Pau&Company, where I often support projects that cannot afford full-price services.
+
+1. (A) Personal fit with idea  2. (D) Demonstrated customer willingness to pay  3. (B) Total addressable market  4. (C) Number of competitors in the market
+
+The most important thing for me is that the idea fits me. If I am not genuinely interested or cannot see myself working on it for years, I will probably burn out or lose motivation. When I care about what I am building, it is much easier for me to talk to users, learn quickly and find real solutions.
+
+Next, I would look at whether there are people actually willing to pay for what I am offering. It does not have to be a lot, but it shows that what I am doing solves something they really need and is not just a nice idea. It also helps focus and make better decisions early on.
+
+In third place, I would think about whether the idea has the potential to grow. But I believe that is something you can figure out step by step. At the beginning, it is more important to find a specific group of people to help and validate with them than to think about big numbers.
+
+Lastly, the number of competitors does not worry me much. If there are others doing something similar, it might even be a good sign. And if there are none, it is worth asking why. What matters more to me is whether I bring something different or useful to the table, not whether I am the only one.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Paula Mesa Macías
+
+Email: pau@pau.company
+
+LinkedIn: https://www.linkedin.com/in/paulamesamacias/
+
+EXPERIENCE
+
+Technical: build a marketing / lead generation website
+create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+design a system architecture for a scalable/distributed application
+
+Founder: I have founded a nonprofit.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+
+ACCOMPLISHMENTS
+
+I’m proud of moving to the UK, adapting to a new culture and language I didn’t speak before, and founding a value-driven organisation in a niche area despite personal difficulties. This experience challenged me and helped me grow both personally and professionally.
+
+PHILANTHROPIC INTERESTS
+
+If I earned $150,000 a year, I would aim to donate at least 30 percent of it. I already donate regularly to Sepheo, a cooperative of digital freelancers, and HacMan, the community hackspace in Manchester. I support them because they represent the kind of tech culture I believe in, collaborative and accessible.
+
+With a higher income, I would continue supporting them and also donate to a few organisations I have admired for years. One is the Free Software Foundation, which defends users rights and promotes open, ethical technology. Another is Tactical Tech, which helps people understand how digital technologies affect their rights and societies. I also think it is important to give to highly effective global charities, so I would put part of my donation towards GiveWell’s top recommendations in health and development.
+
+Finally, I would support infrastructure in the Effective Altruism space, like EA Funds or the Centre for Effective Altruism, because I believe in improving the quality of decisions and funding across the sector.
+
+This reflects both what I care about professionally, like ethical software and digital rights, and what I care about globally, like reducing suffering in the most effective way possible. Besides donating money, I already try to contribute time and skills through my work at Pau&Company, where I often support projects that cannot afford full-price services.
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

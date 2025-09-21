@@ -1,0 +1,63 @@
+================================================================================
+AIDEN CHEN
+Junior Developer • Rust & WebAssembly • Gaming • Open Source
+ID: junior-specialized-dev-1
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: aiden.chen@test.com
+🔗 LinkedIn: https://linkedin.com/in/aiden-chen-rust
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+🌍 Regional Experience: North America
+🛠️ Skills: Rust Programming • WebAssembly • Game Development • Open Source • Systems Programming
+
+COMPLETE PROFILE
+------------------------------
+Aiden Chen 
+ Junior Developer • Rust & WebAssembly • Gaming • Open Source 
+ Regions: North America 
+ Fundraising: None 
+ Technical: Yes 
+ Tags: junior_developer, rust_expert, gaming, open_source 
+ Rust Programming, WebAssembly, Game Development, Open Source, Systems Programming 
+ Rising star in Rust ecosystem. Created viral open-source WebAssembly game engine with 10k+ GitHub stars. Despite being junior, has deep expertise in systems programming and performance optimization. 
+ CURRICULUM VITAE
+Aiden Chen
+Email: aiden.chen@test.com
+
+EXPERIENCE
+Open Source Developer (2022-Present)
+- Created RustEngine: WebAssembly game engine (12k GitHub stars)
+- Contributed to 15+ major Rust projects
+- Speaker at RustConf 2023 and WebAssembly Summit
+
+Junior Software Engineer, Epic Games (2023-Present)
+- Performance optimization for Unreal Engine WebAssembly exports
+- Reduced load times by 40% using Rust/WASM integration
+- Mentored by senior architects on systems programming
+
+EDUCATION
+BS Computer Science, UC Berkeley (2022)
+- Focus: Systems Programming and Compilers
+- Thesis: "High-Performance WebAssembly Runtime Optimization"
+
+TECHNICAL EXPERTISE
+- Systems Programming: Rust, C++, Assembly
+- WebAssembly Runtime Optimization
+- Game Engine Architecture
+- Memory Management & Performance Tuning
+- Cross-Platform Development
+
+TAGS
+----------
+🏷️ junior_developer • rust_expert • gaming • open_source
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

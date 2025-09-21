@@ -1,0 +1,98 @@
+================================================================================
+TOBY WEBSTER
+Founder • Seed Experience • Europe
+ID: RVNDDQEL
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: tobywebster@me.com
+🔗 LinkedIn: https://www.linkedin.com/in/toby-webster-97107764/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 3
+💰 Fundraising Experience: Seed
+🌍 Regional Experience: Europe, North America
+🛠️ Skills: Domain Expertise • Management
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Toby Webster
+
+Founder • Seed Experience • Europe
+
+Regions: Europe, North America
+
+Fundraising: Seed
+
+Technical: No
+
+Tags: AIM_2024
+
+Domain Expertise, Management
+
+In 2018, I started a regular biosecurity journal club and discussion group for EA London. There was previously no hub or meeting point for people interested in this cause area, in the UK. A community formed and we continue to support each other's careers. Several are now senior in this field.
+
+In my previous director of research role I identified and built relationships with groups who funded/sponsored the organisation or paid premium rates for technical consultancy work. In my current role I work with others on proposals for RFPs or philanthropic donors, and have scaled down the quantity to reflect the group responsibility for the funds raised.
+
+I would donate 10-20% of net income to a combination of the Long-Term Future Fund (90%) and the EA Infrastructure fund (10%). I have done this for many years, varying the exact proportion of my net income depending on my circumstances. If pre-tax donation was available I would donate until my net income was 99,999 GBP, avoiding a UK childcare subsidy means-testing threshold. 
+
+LTFF - based on their track record and principles, I think they identify highly impactful opportunities on average. I think their HITS approach is appropriate. I think their frequent funding of early-career or independent researchers fills a relative gap. I don't agree that all of the projects they fund are very impactful, but I am comfortable with a high miss-rate. I agree with their general (implicit) model of impactful technical AI safety work, and the balance between this and supporting people in their career transitions.
+
+EAIF - coordinated and efficient support for projects that maintain and grow a focused EA community. Helps reduce friction and increase speed. 
+
+If my salary was paid by an organisation I thought would be the near-best use of these resources, I would salary sacrifice rather than pay more tax and donate. 
+
+Note: I did not use an LLM in any way in the process of writing this answer.
+
+D - key requirement for a business to be viable. Not negotiable in most circumstances. 
+
+A - important for persistence, motivation, grit. Not an absolute requirement, but a strong predictor of success. Depending on the idea, some areas of founder-idea fit could be more or less important. Not very context-dependent; poor founder-idea fit has a good chance of dooming a business that is promising in most other ways. I would be interested to see AIM's data on this as I found the CE data on predictors of success interesting. 
+
+B - if the TAM is very large, a business can scale more. This is lower ranked because its importance is more context-dependent. If the TAM is extremely small, the idea may not be viable as even a small to medium-sized business may struggle to find customers or monetise. Or the TAM may change. Or the product may shift markets as things change. Or the product may contribute to the growth of a new market. 
+
+C - lowest ranked because it is even more context-dependent. Competitors can help validate that there is demand for a product. They may not be extracting much value from the market; a better idea or model or marketing may out-compete them. There may be a small number of large competitors, or a large number of small competitors, and those can have different implications. 
+
+Note: I did not use an LLM to write this answer. I used an LLM (4o) to explore contrarian answers to this question (which I did not use). I also used an LLM to check my thinking on competitors and TAM (I was only loosely familiar with TAM from a business project a long time ago and wanted to avoid any silly errors). I didn't use the additional content it generated. I used it to explore additional nuance on competitors that I found interesting, but didn't include in my answer.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Toby Webster
+
+Email: tobywebster@me.com
+
+LinkedIn: https://www.linkedin.com/in/toby-webster-97107764/
+
+EXPERIENCE
+
+Founder: I do not have experience as a founder.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+I have managed a team of more than 5 people
+
+ACCOMPLISHMENTS
+
+In 2018, I started a regular biosecurity journal club and discussion group for EA London. There was previously no hub or meeting point for people interested in this cause area, in the UK. A community formed and we continue to support each other's careers. Several are now senior in this field.
+
+PHILANTHROPIC INTERESTS
+
+I would donate 10-20% of net income to a combination of the Long-Term Future Fund (90%) and the EA Infrastructure fund (10%). I have done this for many years, varying the exact proportion of my net income depending on my circumstances. If pre-tax donation was available I would donate until my net income was 99,999 GBP, avoiding a UK childcare subsidy means-testing threshold. 
+
+LTFF - based on their track record and principles, I think they identify highly impactful opportunities on average. I think their HITS approach is appropriate. I think their frequent funding of early-career or independent researchers fills a relative gap. I don't agree that all of the projects they fund are very impactful, but I am comfortable with a high miss-rate. I agree with their general (implicit) model of impactful technical AI safety work, and the balance between this and supporting people in their career transitions.
+
+EAIF - coordinated and efficient support for projects that maintain and grow a focused EA community. Helps reduce friction and increase speed. 
+
+If my salary was paid by an organisation I thought would be the near-best use of these resources, I would salary sacrifice rather than pay more tax and donate. 
+
+Note: I did not use an LLM in any way in the process of writing this answer.
+
+TAGS
+----------
+🏷️ AIM_2024
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

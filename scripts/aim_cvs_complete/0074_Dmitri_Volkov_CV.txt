@@ -1,0 +1,65 @@
+================================================================================
+DMITRI VOLKOV
+Blockchain Architect • DeFi Protocol • Technical Co-founder • Ethereum Expert
+ID: web3-blockchain-tech-1
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: dmitri.volkov@test.com
+🔗 LinkedIn: https://linkedin.com/in/dmitri-volkov-web3
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 6
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Series A
+🌍 Regional Experience: Europe, Remote
+🛠️ Skills: Blockchain Development • Smart Contracts • DeFi • Solidity • Cryptography • Protocol Design
+
+COMPLETE PROFILE
+------------------------------
+Dmitri Volkov 
+ Blockchain Architect • DeFi Protocol • Technical Co-founder • Ethereum Expert 
+ Regions: Europe, Remote 
+ Fundraising: Series A 
+ Technical: Yes 
+ Tags: blockchain, web3, defi, technical_cofounder, ethereum 
+ Blockchain Development, Smart Contracts, DeFi, Solidity, Cryptography, Protocol Design 
+ Core contributor to major DeFi protocols. Built smart contracts handling $500M+ TVL. Deep expertise in cryptographic protocols, MEV protection, and cross-chain interoperability. 
+ CURRICULUM VITAE
+Dmitri Volkov
+Email: dmitri.volkov@test.com
+
+EXPERIENCE
+Co-Founder & CTO, DefiLab Protocol (2021-Present)
+- DeFi lending protocol with $500M+ Total Value Locked
+- Raised $12M Series A from Paradigm and Coinbase Ventures
+- Built MEV-resistant automated market maker
+- Security audits by Trail of Bits and ConsenSys Diligence
+
+Senior Blockchain Engineer, ConsenSys (2019-2021)
+- Core contributor to Ethereum 2.0 staking infrastructure
+- Built smart contract libraries used by 100+ DApps
+- Led security reviews for major DeFi protocols
+
+EDUCATION
+MS Cryptography, ETH Zurich (2019)
+BS Mathematics, Moscow State University (2017)
+
+BLOCKCHAIN EXPERTISE
+- Smart Contract Development (Solidity, Vyper)
+- Cryptographic Protocol Design
+- MEV Research & Protection
+- Cross-Chain Bridge Architecture
+- DeFi Protocol Economics
+- Zero-Knowledge Proof Systems
+
+TAGS
+----------
+🏷️ blockchain • web3 • defi • technical_cofounder • ethereum
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

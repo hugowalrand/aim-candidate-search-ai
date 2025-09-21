@@ -1,0 +1,123 @@
+AIM PDF CV DOWNLOAD SUMMARY
+==================================================
+Download Date: 2025-09-21 13:44:29
+Total Candidates: 110
+
+DOWNLOAD RESULTS:
+------------------------------
+  1. Selim Vanbecelaere - NO PDF URL
+  2. Jose L. Part - NO PDF URL
+  3. Ibrahim Muwanguzi - NO PDF URL
+  4. Guannan Li - NO PDF URL
+  5. Fibian John-Ramadan - NO PDF URL
+  6. Aliyu Bashir - NO PDF URL
+  7. Ocan Joseph - NO PDF URL
+  8. Safiya O'Brien - NO PDF URL
+  9. Jochem Gietema - NO PDF URL
+ 10. Nikolaus Stern - NO PDF URL
+ 11. Trevor Shorb - NO PDF URL
+ 12. Hans van Wijngaarden - NO PDF URL
+ 13. Almustapha Umar - NO PDF URL
+ 14. Dror Oberman - NO PDF URL
+ 15. Paulo Alves - NO PDF URL
+ 16. Nacoya Villegas - NO PDF URL
+ 17. Benjamin Finch - NO PDF URL
+ 18. Christian Elongue - NO PDF URL
+ 19. Nancy Yu - NO PDF URL
+ 20. Jyotsna Varkey - NO PDF URL
+ 21. David Oates - NO PDF URL
+ 22. Kathrin Es-Saidy - NO PDF URL
+ 23. Patrice Barnes - NO PDF URL
+ 24. Sunday Falaye - NO PDF URL
+ 25. Pierce Manlangit - NO PDF URL
+ 26. Georgia Barham - NO PDF URL
+ 27. Toshi Troyer - NO PDF URL
+ 28. Hrishabh Dave - NO PDF URL
+ 29. Prateek Kaushik - NO PDF URL
+ 30. annie reci - NO PDF URL
+ 31. Roseann Chelangat - NO PDF URL
+ 32. Kenneth Scheffler - NO PDF URL
+ 33. Liron Keret - NO PDF URL
+ 34. Sameer Vishwanathan - NO PDF URL
+ 35. Maximilian Voigt - NO PDF URL
+ 36. Simon Crann - NO PDF URL
+ 37. S. Jazmine Fugate - NO PDF URL
+ 38. Aaron Chase - NO PDF URL
+ 39. Shadiyar Tauyekel - NO PDF URL
+ 40. Sophie Shrimpton - NO PDF URL
+ 41. Abdullateef Abdullateef - NO PDF URL
+ 42. Julian Donald - NO PDF URL
+ 43. Cheryl Spector - NO PDF URL
+ 44. Nhat Nguyen - NO PDF URL
+ 45. Azeezah Ibraheem - NO PDF URL
+ 46. Andrea Martens Briceno - NO PDF URL
+ 47. Maria Kuzmina - NO PDF URL
+ 48. Amy Lewis - NO PDF URL
+ 49. Yelena Bouckaert - NO PDF URL
+ 50. Toby Webster - NO PDF URL
+ 51. Abubakar Salihu - NO PDF URL
+ 52. Eva Kupcova - NO PDF URL
+ 53. Paula Mesa Macías - NO PDF URL
+ 54. Nelson T. Ajulo - NO PDF URL
+ 55. Akansh Murthy - NO PDF URL
+ 56. Łukasz Niparko - NO PDF URL
+ 57. Julius Odai - NO PDF URL
+ 58. Rajeev Kumar - NO PDF URL
+ 59. Yefry Nùñez - NO PDF URL
+ 60. Willy Tekeu - NO PDF URL
+ 61. Miruna Beatrice Badescu - NO PDF URL
+ 62. Severin Bernhart - NO PDF URL
+ 63. Jonah Weissman - NO PDF URL
+ 64. Jackson Dean - NO PDF URL
+ 65. Onochie Nwagbogu - NO PDF URL
+ 66. Andrew Szabados - NO PDF URL
+ 67. Gifty Aruwajoye - NO PDF URL
+ 68. Julie Opondo - NO PDF URL
+ 69. Wilson Chay - NO PDF URL
+ 70. Caroline Fornhoff - NO PDF URL
+ 71. Dr. Sarah Chen - NO PDF URL
+ 72. Verena Egetemeir - NO PDF URL
+ 73. Chene Karega - NO PDF URL
+ 74. Olubisi Ajetunmobi - NO PDF URL
+ 75. Moustafa Medhat - NO PDF URL
+ 76. Abdulsalam Ibraheem - NO PDF URL
+ 77. Dmitri Volkov - NO PDF URL
+ 78. Alex Kim - NO PDF URL
+ 79. Aiden Chen - NO PDF URL
+ 80. Henry Wells - NO PDF URL
+ 81. Dr. Michael Rodriguez - NO PDF URL
+ 82. Lars Andersson - NO PDF URL
+ 83. Hemakshi Meghani - NO PDF URL
+ 84. Ramya Nadig - NO PDF URL
+ 85. Josh Peng - NO PDF URL
+ 86. Kirandeep Kaur - NO PDF URL
+ 87. Mariya Chekmarova - NO PDF URL
+ 88. Aleksei Potemkin - NO PDF URL
+ 89. Ishmael Amini - NO PDF URL
+ 90. Amara Okonkwo - NO PDF URL
+ 91. Sofia Petrov - NO PDF URL
+ 92. Sarah Afraz - NO PDF URL
+ 93. Vanessa Ebertz - NO PDF URL
+ 94. Corrina Vali - NO PDF URL
+ 95. Damola Morenikeji - NO PDF URL
+ 96. Maulik Kansara - NO PDF URL
+ 97. Thomas Scott - NO PDF URL
+ 98. Moe Pwint - NO PDF URL
+ 99. Aishwarya Gurung - NO PDF URL
+100. Linda Obregon - NO PDF URL
+101. Natalia Assis - NO PDF URL
+102. Dr. Priya Sharma - NO PDF URL
+103. Fabiola Balmori - NO PDF URL
+104. Vera Grossmann - NO PDF URL
+105. Susan Klauser - NO PDF URL
+106. Peris Rimas - NO PDF URL
+107. Adewale Aboderin - NO PDF URL
+108. Maria Santos - NO PDF URL
+109. José Teixeira - NO PDF URL
+110. Akshatha Palyam - NO PDF URL
+
+FINAL STATS:
+✅ Successful downloads: 0
+❌ Failed downloads: 0
+⚠️ No PDF URL: 110
+📁 Files saved to: /Users/hugo/Documents/AIM/aim-candidate-search/scripts/aim_pdf_cvs

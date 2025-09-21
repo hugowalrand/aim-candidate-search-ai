@@ -1,0 +1,68 @@
+================================================================================
+DR. SARAH CHEN
+Senior AI/ML Engineer • Ex-Google • PhD Computer Science • 8 years experience
+ID: tech-ai-senior-1
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: sarah.chen@test.com
+🔗 LinkedIn: https://linkedin.com/in/sarah-chen-ai
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 8
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Series A
+🌍 Regional Experience: North America, Asia Pacific
+🛠️ Skills: Machine Learning • Deep Learning • Python • TensorFlow • Backend Development • LLM/AI
+
+COMPLETE PROFILE
+------------------------------
+Dr. Sarah Chen 
+ Senior AI/ML Engineer • Ex-Google • PhD Computer Science • 8 years experience 
+ Regions: North America, Asia Pacific 
+ Fundraising: Series A 
+ Technical: Yes 
+ Tags: technical_cofounder, ai_expert, phd 
+ Machine Learning, Deep Learning, Python, TensorFlow, Backend Development, LLM/AI 
+ Led AI research team at Google. Published 15 papers on machine learning. Built production ML systems serving 100M+ users. Expertise in natural language processing, computer vision, and recommender systems. 
+ CURRICULUM VITAE
+Dr. Sarah Chen
+Email: sarah.chen@test.com
+
+EXPERIENCE
+Senior AI/ML Engineer, Google (2020-2024)
+- Led team of 8 ML engineers building recommendation systems
+- Deployed models serving 100M+ daily active users
+- Pioneered new transformer architectures for product search
+- Reduced inference latency by 40% while improving accuracy by 15%
+
+AI Research Scientist, DeepMind (2018-2020)
+- Published 8 papers in top-tier conferences (NeurIPS, ICML, ICLR)
+- Developed novel reinforcement learning algorithms
+- Collaborated with product teams on AI integration
+
+EDUCATION
+PhD Computer Science, Stanford University (2018)
+- Dissertation: "Scalable Deep Learning for Natural Language Understanding"
+- GPA: 3.9/4.0
+
+MS Computer Science, MIT (2015)
+BS Computer Science, Carnegie Mellon University (2013)
+
+TECHNICAL SKILLS
+- Programming: Python, C++, JavaScript, Go
+- ML Frameworks: TensorFlow, PyTorch, JAX, Scikit-learn
+- Cloud: GCP, AWS, Kubernetes, Docker
+- Databases: PostgreSQL, Redis, BigQuery
+- Areas: NLP, Computer Vision, Recommender Systems, MLOps
+
+TAGS
+----------
+🏷️ technical_cofounder • ai_expert • phd
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

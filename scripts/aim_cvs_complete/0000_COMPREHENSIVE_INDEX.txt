@@ -1,0 +1,557 @@
+AIM FOUNDING TO GIVE - COMPREHENSIVE CV EXPORT
+============================================================
+Export Date: 2025-09-21 13:34:00
+Total Candidates: 110
+Output Directory: /Users/hugo/Documents/AIM/aim-candidate-search/scripts/aim_cvs_complete
+
+COMPLETE CANDIDATE LIST:
+----------------------------------------
+   1. Selim Vanbecelaere
+      File: 0001_Selim_Vanbecelaere_CV.txt
+      Email: selim.vanbesie@gmail.com
+      Role: Founder • Series B+ Experience • Europe
+
+   2. Jose L. Part
+      File: 0002_Jose_L_Part_CV.txt
+      Email: hello@joselpart.org
+      Role: Technical Co-founder • Preseed Experience • Asia Pacific
+
+   3. Ibrahim Muwanguzi
+      File: 0003_Ibrahim_Muwanguzi_CV.txt
+      Email: muwanguziibrahimvet@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+   4. Guannan Li
+      File: 0004_Guannan_Li_CV.txt
+      Email: gn.li@proton.me
+      Role: Founder • Preseed Experience • Africa
+
+   5. Fibian John-Ramadan
+      File: 0005_Fibian_John-Ramadan_CV.txt
+      Email: fibianramadan@gmail.com
+      Role: Founder • Seed Experience • Europe
+
+   6. Aliyu Bashir
+      File: 0006_Aliyu_Bashir_CV.txt
+      Email: Aliyubashir636@yahoo.com
+      Role: Founder • Preseed Experience • Africa
+
+   7. Ocan Joseph
+      File: 0007_Ocan_Joseph_CV.txt
+      Email: ocanjoseph2018@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+   8. Safiya O'Brien
+      File: 0008_Safiya_OBrien_CV.txt
+      Email: safiya.obrien@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+   9. Jochem Gietema
+      File: 0009_Jochem_Gietema_CV.txt
+      Email: jochem@giete.ma
+      Role: Technical Co-founder • Preseed Experience • Asia Pacific
+
+  10. Trevor Shorb
+      File: 0010_Trevor_Shorb_CV.txt
+      Email: trevor.shorb@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  11. Nikolaus Stern
+      File: 0011_Nikolaus_Stern_CV.txt
+      Email: nikolaus.stern@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  12. Hans van Wijngaarden
+      File: 0012_Hans_van_Wijngaarden_CV.txt
+      Email: hans@2vw.nl
+      Role: Founder • Preseed Experience • Europe
+
+  13. Almustapha Umar
+      File: 0013_Almustapha_Umar_CV.txt
+      Email: almustaphaumar173@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  14. Dror Oberman
+      File: 0014_Dror_Oberman_CV.txt
+      Email: DrorOberman@gmail.com
+      Role: Founder • Series A Experience • Africa
+
+  15. Paulo Alves
+      File: 0015_Paulo_Alves_CV.txt
+      Email: p@uloalv.es
+      Role: Technical Co-founder • Preseed Experience • Europe
+
+  16. Nacoya Villegas
+      File: 0016_Nacoya_Villegas_CV.txt
+      Email: Nacoyav@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  17. Benjamin Finch
+      File: 0017_Benjamin_Finch_CV.txt
+      Email: btsfinch@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  18. Christian Elongue
+      File: 0018_Christian_Elongue_CV.txt
+      Email: elongue@munakalati.org
+      Role: Founder • Preseed Experience • Africa
+
+  19. Nancy Yu
+      File: 0019_Nancy_Yu_CV.txt
+      Email: nancy.yu@yarnpolitik.org
+      Role: Founder • Preseed Experience • Africa
+
+  20. Jyotsna Varkey
+      File: 0020_Jyotsna_Varkey_CV.txt
+      Email: jyotsna.varkey@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  21. David Oates
+      File: 0021_David_Oates_CV.txt
+      Email: david.s.oates@icloud.com
+      Role: Founder • Preseed Experience • Europe
+
+  22. Kathrin Es-Saidy
+      File: 0022_Kathrin_Es-Saidy_CV.txt
+      Email: kathrinessaidy@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  23. Patrice Barnes
+      File: 0023_Patrice_Barnes_CV.txt
+      Email: patrice.barnes87@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  24. Sunday Falaye
+      File: 0024_Sunday_Falaye_CV.txt
+      Email: seyi@cenecopower.com
+      Role: Founder • Preseed Experience • Africa
+
+  25. Pierce Manlangit
+      File: 0025_Pierce_Manlangit_CV.txt
+      Email: piercemanlangit@protonmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  26. Georgia Barham
+      File: 0026_Georgia_Barham_CV.txt
+      Email: barhamgeorgia@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  27. Toshi Troyer
+      File: 0027_Toshi_Troyer_CV.txt
+      Email: tosh.troyer@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  28. Hrishabh Dave
+      File: 0028_Hrishabh_Dave_CV.txt
+      Email: hrishabhdave56@gmail.com
+      Role: Founder • Preseed Experience • North America
+
+  29. annie reci
+      File: 0029_annie_reci_CV.txt
+      Email: anniereci3@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  30. Prateek Kaushik
+      File: 0030_Prateek_Kaushik_CV.txt
+      Email: tiki.explores@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  31. Roseann Chelangat
+      File: 0031_Roseann_Chelangat_CV.txt
+      Email: roseannchelangat@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  32. Kenneth Scheffler
+      File: 0032_Kenneth_Scheffler_CV.txt
+      Email: kscheffler@familyempowermentmedia.org
+      Role: Founder • Preseed Experience • Africa
+
+  33. Liron Keret
+      File: 0033_Liron_Keret_CV.txt
+      Email: sadankeret@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  34. Sameer Vishwanathan
+      File: 0034_Sameer_Vishwanathan_CV.txt
+      Email: sameer@new-emerald.com
+      Role: Founder • Preseed Experience • Africa
+
+  35. Maximilian Voigt
+      File: 0035_Maximilian_Voigt_CV.txt
+      Email: maxvoigt96@gmail.com
+      Role: Founder • Seed Experience • Asia Pacific
+
+  36. S. Jazmine Fugate
+      File: 0036_S_Jazmine_Fugate_CV.txt
+      Email: jaz@ssjaz.com
+      Role: Founder • Preseed Experience • North America
+
+  37. Simon Crann
+      File: 0037_Simon_Crann_CV.txt
+      Email: simoncrann@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  38. Aaron Chase
+      File: 0038_Aaron_Chase_CV.txt
+      Email: AaronChase.83@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  39. Shadiyar Tauyekel
+      File: 0039_Shadiyar_Tauyekel_CV.txt
+      Email: tauyekelshadiyar@gmail.com
+      Role: Founder • Preseed Experience • Asia Pacific
+
+  40. Sophie Shrimpton
+      File: 0040_Sophie_Shrimpton_CV.txt
+      Email: sophieshrimpton@protonmail.com
+      Role: Founder • Preseed Experience • Asia Pacific
+
+  41. Abdullateef Abdullateef
+      File: 0041_Abdullateef_Abdullateef_CV.txt
+      Email: abdullateefabdull2364@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  42. Julian Donald
+      File: 0042_Julian_Donald_CV.txt
+      Email: julian.donald@gmail.com
+      Role: Founder • Seed Experience • Africa
+
+  43. Cheryl Spector
+      File: 0043_Cheryl_Spector_CV.txt
+      Email: caspector@SpectorAssociates.com
+      Role: Founder • Series A Experience • Europe
+
+  44. Nhat Nguyen
+      File: 0044_Nhat_Nguyen_CV.txt
+      Email: nhat.tc.nguyen@gmail.com
+      Role: Founder • Preseed Experience • North America
+
+  45. Azeezah Ibraheem
+      File: 0045_Azeezah_Ibraheem_CV.txt
+      Email: a.fehinty@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  46. Andrea Martens Briceno
+      File: 0046_Andrea_Martens_Briceno_CV.txt
+      Email: amartensb@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  47. Maria Kuzmina
+      File: 0047_Maria_Kuzmina_CV.txt
+      Email: kuzmina.mar@gmail.com
+      Role: Founder • Seed Experience • Africa
+
+  48. Amy Lewis
+      File: 0048_Amy_Lewis_CV.txt
+      Email: amylewis213@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  49. Yelena Bouckaert
+      File: 0049_Yelena_Bouckaert_CV.txt
+      Email: yelena.bouckaert@insead.edu
+      Role: Founder • Preseed Experience • Africa
+
+  50. Toby Webster
+      File: 0050_Toby_Webster_CV.txt
+      Email: tobywebster@me.com
+      Role: Founder • Seed Experience • Europe
+
+  51. Łukasz Niparko
+      File: 0051_Łukasz_Niparko_CV.txt
+      Email: niparkodcs@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  52. Amara Okonkwo
+      File: 0052_Amara_Okonkwo_CV.txt
+      Email: amara.okonkwo@test.com
+      Role: FinTech CTO • Mobile Payments Expert • Nigeria & Kenya • Technical Co-founder
+
+  53. Yefry Nùñez
+      File: 0053_Yefry_Nùñez_CV.txt
+      Email: yefrynunez45@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  54. Miruna Beatrice Badescu
+      File: 0054_Miruna_Beatrice_Badescu_CV.txt
+      Email: badescumirunabeatrice@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  55. Julius Odai
+      File: 0055_Julius_Odai_CV.txt
+      Email: jlsodai@gmail.com
+      Role: Technical Co-founder • Seed Experience • Africa
+
+  56. Onochie Nwagbogu
+      File: 0056_Onochie_Nwagbogu_CV.txt
+      Email: oan2105@columbia.edu
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  57. Severin Bernhart
+      File: 0057_Severin_Bernhart_CV.txt
+      Email: severinbernhart@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  58. Eva Kupcova
+      File: 0058_Eva_Kupcova_CV.txt
+      Email: kupcova.eva1@gmail.com
+      Role: Technical Co-founder • Seed Experience • Europe
+
+  59. Paula Mesa Macías
+      File: 0059_Paula_Mesa_Macías_CV.txt
+      Email: pau@pau.company
+      Role: Technical Co-founder • Seed Experience • Asia Pacific
+
+  60. Andrew Szabados
+      File: 0060_Andrew_Szabados_CV.txt
+      Email: szabados.andrew@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  61. Abubakar Salihu
+      File: 0061_Abubakar_Salihu_CV.txt
+      Email: amdbubasmanga@gmail.com
+      Role: Technical Co-founder • Series A Experience • Africa
+
+  62. Akansh Murthy
+      File: 0062_Akansh_Murthy_CV.txt
+      Email: akanshnm@gmail.com
+      Role: Technical Co-founder • Seed Experience • Asia Pacific
+
+  63. Olubisi Ajetunmobi
+      File: 0063_Olubisi_Ajetunmobi_CV.txt
+      Email: ajetbisi@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  64. Rajeev Kumar
+      File: 0064_Rajeev_Kumar_CV.txt
+      Email: rajeevkumarpv@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Asia Pacific
+
+  65. Chene Karega
+      File: 0065_Chene_Karega_CV.txt
+      Email: Karega.chene@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  66. Abdulsalam Ibraheem
+      File: 0066_Abdulsalam_Ibraheem_CV.txt
+      Email: Abdulsalamibraheem70@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  67. Jonah Weissman
+      File: 0067_Jonah_Weissman_CV.txt
+      Email: jonahrweissman@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Europe
+
+  68. Gifty Aruwajoye
+      File: 0068_Gifty_Aruwajoye_CV.txt
+      Email: giftyaruwajoye@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  69. Wilson Chay
+      File: 0069_Wilson_Chay_CV.txt
+      Email: wilsonwc@umich.edu
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  70. Nelson T. Ajulo
+      File: 0070_Nelson_T_Ajulo_CV.txt
+      Email: nelson@joble.app
+      Role: Technical Co-founder • Series B+ Experience • Europe
+
+  71. Willy Tekeu
+      File: 0071_Willy_Tekeu_CV.txt
+      Email: willy.tekeu@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  72. Moustafa Medhat
+      File: 0072_Moustafa_Medhat_CV.txt
+      Email: mostafamedhat.official@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  73. Julie Opondo
+      File: 0073_Julie_Opondo_CV.txt
+      Email: opondojulie@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  74. Dmitri Volkov
+      File: 0074_Dmitri_Volkov_CV.txt
+      Email: dmitri.volkov@test.com
+      Role: Blockchain Architect • DeFi Protocol • Technical Co-founder • Ethereum Expert
+
+  75. Caroline Fornhoff
+      File: 0075_Caroline_Fornhoff_CV.txt
+      Email: carolinefornhoff@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Africa
+
+  76. Jackson Dean
+      File: 0076_Jackson_Dean_CV.txt
+      Email: jacksondean17@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Europe
+
+  77. Verena Egetemeir
+      File: 0077_Verena_Egetemeir_CV.txt
+      Email: verenaegetemeir@gmail.com
+      Role: Technical Co-founder • Preseed Experience • Latin America
+
+  78. Dr. Michael Rodriguez
+      File: 0078_Dr_Michael_Rodriguez_CV.txt
+      Email: michael.rodriguez@test.com
+      Role: Healthcare Entrepreneur • Founded 2 startups • MD + MBA • Digital Health Expert
+
+  79. Sofia Petrov
+      File: 0079_Sofia_Petrov_CV.txt
+      Email: sofia.petrov@test.com
+      Role: Enterprise SaaS Founder • B2B • Global Markets • Series C Experience
+
+  80. Lars Andersson
+      File: 0080_Lars_Andersson_CV.txt
+      Email: lars.andersson@test.com
+      Role: Climate Tech Entrepreneur • Sustainability Expert • Copenhagen • Policy & Business Development
+
+  81. Dr. Sarah Chen
+      File: 0081_Dr_Sarah_Chen_CV.txt
+      Email: sarah.chen@test.com
+      Role: Senior AI/ML Engineer • Ex-Google • PhD Computer Science • 8 years experience
+
+  82. Alex Kim
+      File: 0082_Alex_Kim_CV.txt
+      Email: alex.kim@test.com
+      Role: Junior Full-Stack Developer • React & Node.js • 2 years experience
+
+  83. Aiden Chen
+      File: 0083_Aiden_Chen_CV.txt
+      Email: aiden.chen@test.com
+      Role: Junior Developer • Rust & WebAssembly • Gaming • Open Source
+
+  84. Henry Wells
+      File: 0084_Henry_Wells_CV.txt
+      Email: henrycwells1@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+  85. Hemakshi Meghani
+      File: 0085_Hemakshi_Meghani_CV.txt
+      Email: hemakshimeghani@gmail.com
+      Role: Founder • Preseed Experience • Asia Pacific
+
+  86. Ramya Nadig
+      File: 0086_Ramya_Nadig_CV.txt
+      Email: ramyanadig033@gmail.com
+      Role: Founder • Preseed Experience • Asia Pacific
+
+  87. Josh Peng
+      File: 0087_Josh_Peng_CV.txt
+      Email: joshpeng703@gmail.com
+      Role: Founder • Preseed Experience • Asia Pacific
+
+  88. Kirandeep Kaur
+      File: 0088_Kirandeep_Kaur_CV.txt
+      Email: kdkaur89@gmail.com
+      Role: Founder • Seed Experience • Europe
+
+  89. Mariya Chekmarova
+      File: 0089_Mariya_Chekmarova_CV.txt
+      Email: m.chekmarova@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  90. Aleksei Potemkin
+      File: 0090_Aleksei_Potemkin_CV.txt
+      Email: potem.a.m@gmail.com
+      Role: Founder • Series B+ Experience • Asia Pacific
+
+  91. Ishmael Amini
+      File: 0091_Ishmael_Amini_CV.txt
+      Email: ishmael@principledbusiness.org
+      Role: Founder • Series B+ Experience • Africa
+
+  92. Damola Morenikeji
+      File: 0092_Damola_Morenikeji_CV.txt
+      Email: damola@damolamorenikeji.com
+      Role: Founder • Preseed Experience • Africa
+
+  93. Sarah Afraz
+      File: 0093_Sarah_Afraz_CV.txt
+      Email: sarah.afraz@aya.yale.edu
+      Role: Founder • Series A Experience • Africa
+
+  94. Akshatha Palyam
+      File: 0094_Akshatha_Palyam_CV.txt
+      Email: akshathapalyam98@gmail.com
+      Role: Founder • Preseed Experience • North America
+
+  95. José Teixeira
+      File: 0095_José_Teixeira_CV.txt
+      Email: zemiguelteixeir@gmail.com
+      Role: Founder • Preseed Experience • Europe
+
+  96. Maria Santos
+      File: 0096_Maria_Santos_CV.txt
+      Email: maria.santos@test.com
+      Role: EdTech Founder • Education Access • Latin America • Social Impact
+
+  97. Moe Pwint
+      File: 0097_Moe_Pwint_CV.txt
+      Email: moe.moepwint.moe@gmail.com
+      Role: Founder • Preseed Experience • Asia Pacific
+
+  98. Dr. Priya Sharma
+      File: 0098_Dr_Priya_Sharma_CV.txt
+      Email: priya.sharma@test.com
+      Role: Biotech Founder • PhD Molecular Biology • Drug Discovery • Precision Medicine
+
+  99. Corrina Vali
+      File: 0099_Corrina_Vali_CV.txt
+      Email: ceo@tarrinahealth.com
+      Role: Founder • Seed Experience • Asia Pacific
+
+ 100. Vanessa Ebertz
+      File: 0100_Vanessa_Ebertz_CV.txt
+      Email: vanessa@bluefrogwellness.ca
+      Role: Founder • Preseed Experience • North America
+
+ 101. Maulik Kansara
+      File: 0101_Maulik_Kansara_CV.txt
+      Email: maulikbkansara@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+ 102. Thomas Scott
+      File: 0102_Thomas_Scott_CV.txt
+      Email: tscott8156@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+ 103. Aishwarya Gurung
+      File: 0103_Aishwarya_Gurung_CV.txt
+      Email: missaishagurung@gmail.com
+      Role: Founder • Series B+ Experience • Africa
+
+ 104. Linda Obregon
+      File: 0104_Linda_Obregon_CV.txt
+      Email: linda.obregonl@gmail.com
+      Role: Founder • Seed Experience • Africa
+
+ 105. Natalia Assis
+      File: 0105_Natalia_Assis_CV.txt
+      Email: dr.natalia.assis@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+ 106. Vera Grossmann
+      File: 0106_Vera_Grossmann_CV.txt
+      Email: vera.grossmann@outlook.com
+      Role: Founder • Preseed Experience • Europe
+
+ 107. Peris Rimas
+      File: 0107_Peris_Rimas_CV.txt
+      Email: perisrimas@gmail.com
+      Role: Founder • Preseed Experience • Africa
+
+ 108. Fabiola Balmori
+      File: 0108_Fabiola_Balmori_CV.txt
+      Email: fhbalmori@gmail.com
+      Role: Founder • Series A Experience • Africa
+
+ 109. Susan Klauser
+      File: 0109_Susan_Klauser_CV.txt
+      Email: susanklauser@gmx.ch
+      Role: Founder • Seed Experience • Africa
+
+ 110. Adewale Aboderin
+      File: 0110_Adewale_Aboderin_CV.txt
+      Email: aboderinadewale2@gmail.com
+      Role: Founder • Seed Experience • Africa

@@ -1,0 +1,83 @@
+================================================================================
+ANDREW SZABADOS
+Technical Co-founder • Preseed Experience • Africa
+ID: 0MCEWC9S
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: szabados.andrew@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/andrewszabados
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Africa, Middle East, Asia Pacific, Europe, Latin America, North America, Anywhere to maximize impact
+🛠️ Skills: Backend Development • Mobile Development • Frontend Development • Full Stack Development • DevOps • LLM/AI • Machine Learning • Data Science • Domain Expertise • Management • Startup Experience
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Andrew Szabados
+
+Technical Co-founder • Preseed Experience • Africa
+
+Regions: Africa, Middle East, Asia Pacific, Europe, Latin America, North America, Anywhere to maximize impact
+
+Fundraising: Preseed
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder, fundraising_experience
+
+Backend Development, Mobile Development, Frontend Development, Full Stack Development, DevOps, LLM/AI, Machine Learning, Data Science, Domain Expertise, Management, Startup Experience
+
+After a health problem, I decided I wanted to learn how to fly sailplanes, devoted myself to studying everything I could about it and finally got the license. I'm proud of it because it demonstrates my resilience and how when I set my mind on something, I'm able to push myself.
+
+Personally, I prefer impact/blended investing over pure charitable donations, but in either case I would evaluate the maximally impactful intervention for a cause area (highest impact unit/investment) and ideally try to build a portfolio around this. I would look for points of leverage - for example fund matching initiatives (such as for sustainability initiatives) or investment opportunities where initial funding and engagement can be crucial. The most important thing would be to find a solution which is reasonably one of the best uses of that donation/funding (in a very general sense, I can see a donation as a pure-impact investment).
+
+A - personal fit is most important because I see any work/project as an investment of my time and energy and I know that if there isn't that fit, it is hard to maintain the motivation, especially through challenges. This probably also reflects my desired role too in either bringing or being fully aligned with the vision/purpose. C - generally the competitive landscape, since this is often what makes or breaks an opportunity. D - generally as a proxy to the viability of a business model this is very important. B - of course this is important in understanding scalability, but in my experience it is often not a reliable signal of success.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Andrew Szabados
+
+Email: szabados.andrew@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/andrewszabados
+
+EXPERIENCE
+
+Technical: build a marketing / lead generation website
+create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+design a system architecture for a scalable/distributed application
+
+Founder: I do not have experience as a founder.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+I have worked for an early-stage venture-backed startup (pre-Series B)
+I have managed a team of more than 5 people
+I have experience operating in emerging markets
+
+ACCOMPLISHMENTS
+
+After a health problem, I decided I wanted to learn how to fly sailplanes, devoted myself to studying everything I could about it and finally got the license. I'm proud of it because it demonstrates my resilience and how when I set my mind on something, I'm able to push myself.
+
+PHILANTHROPIC INTERESTS
+
+Personally, I prefer impact/blended investing over pure charitable donations, but in either case I would evaluate the maximally impactful intervention for a cause area (highest impact unit/investment) and ideally try to build a portfolio around this. I would look for points of leverage - for example fund matching initiatives (such as for sustainability initiatives) or investment opportunities where initial funding and engagement can be crucial. The most important thing would be to find a solution which is reasonably one of the best uses of that donation/funding (in a very general sense, I can see a donation as a pure-impact investment).
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

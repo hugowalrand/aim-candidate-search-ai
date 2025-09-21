@@ -1,0 +1,72 @@
+================================================================================
+AMARA OKONKWO
+FinTech CTO • Mobile Payments Expert • Nigeria & Kenya • Technical Co-founder
+ID: africa-fintech-tech-1
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: amara.okonkwo@test.com
+🔗 LinkedIn: https://linkedin.com/in/amara-okonkwo-fintech
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 6
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Seed
+🌍 Regional Experience: Africa
+🛠️ Skills: FinTech • Mobile Payments • Backend Development • Blockchain • Technical Architecture • Team Management
+
+COMPLETE PROFILE
+------------------------------
+Amara Okonkwo 
+ FinTech CTO • Mobile Payments Expert • Nigeria & Kenya • Technical Co-founder 
+ Regions: Africa 
+ Fundraising: Seed 
+ Technical: Yes 
+ Tags: technical_cofounder, fintech, africa, mobile_payments 
+ FinTech, Mobile Payments, Backend Development, Blockchain, Technical Architecture, Team Management 
+ Built mobile payment infrastructure serving 2M+ users across Nigeria and Kenya. Expert in financial regulations, cross-border payments, and blockchain technology. Previously worked at Stripe and Flutterwave. 
+ CURRICULUM VITAE
+Amara Okonkwo
+Email: amara.okonkwo@test.com
+
+EXPERIENCE
+Co-Founder & CTO, PayAfrica (2021-Present)
+- Mobile payment platform serving 2M+ users in Nigeria & Kenya
+- Raised $3M seed funding from Y Combinator and local VCs
+- Built team of 25 engineers across Lagos and Nairobi
+- Processed $100M+ in transaction volume
+- Integrated with 15+ banks and mobile money operators
+
+Senior Software Engineer, Flutterwave (2019-2021)
+- Led payments infrastructure team for African markets
+- Built cross-border payment systems for 10+ countries
+- Improved transaction success rates from 85% to 97%
+- Mentored junior engineers on distributed systems
+
+Software Engineer, Stripe (2018-2019)
+- Worked on core payments platform in San Francisco
+- Implemented fraud detection algorithms
+- Contributed to Stripe's African expansion strategy
+
+EDUCATION
+MS Computer Science, University of Lagos (2018)
+BS Computer Engineering, Obafemi Awolowo University (2016)
+
+TECHNICAL EXPERTISE
+- Programming: Python, Go, Java, JavaScript
+- Payments: Card processing, Mobile money, Bank APIs
+- Infrastructure: AWS, Kubernetes, Microservices
+- Blockchain: Ethereum, Solidity, Web3
+- Databases: PostgreSQL, Redis, MongoDB
+- Specialization: Financial systems, Security, Compliance
+
+TAGS
+----------
+🏷️ technical_cofounder • fintech • africa • mobile_payments
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

@@ -1,0 +1,79 @@
+================================================================================
+SEVERIN BERNHART
+Technical Co-founder • Preseed Experience • Africa
+ID: ZZ3BILAU
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: severinbernhart@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/severin-bernhart/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Africa, Middle East, Europe
+🛠️ Skills: Backend Development • Full Stack Development • DevOps • LLM/AI • Machine Learning • Data Science
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Severin Bernhart
+
+Technical Co-founder • Preseed Experience • Africa
+
+Regions: Africa, Middle East, Europe
+
+Fundraising: Preseed
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder, fundraising_experience, climate
+
+Backend Development, Full Stack Development, DevOps, LLM/AI, Machine Learning, Data Science
+
+My goal is to run one marathon per year in a different country. I did three already. This is one way to train my personal self-discipline and mental health.
+
+My experience is limited to create funding applications for co-industry research projects. I wrote funding proposals myself and coordinated the involved partners.
+
+Hard to say, I would wish to donate 5%, 7.500 USD, yearly. I would donate to charities that support the sustainability triangular: social, ecologic, economic. In my opinion, a balance between the three main sustainability components is the key for a better world. Thus, I could imagine to donate to a) Save the Children to ensure equal chances for people on the market, b) Greenpeace to support the fight against global warming, and c) Human Rights Watch to enhance the reduction of human abuse.
+
+Ranking from most important to least important: (D), (B), (A), (C)It is important to concern the customer needs in the first stage and therefore, select a development/manufacturing process for your product that enables low-cost customer prices. Therefore, addressing (D) is most important. Of course, the manufacturing processes must be sustainable. The market must be addressable (B), otherwise there is no chance to distribute the product. (A) The personal fit with the idea is important and I would not drop the sustainable benefit of the product, however, the personal idea of the product must be adjusted to the customer needs and market opportunities. (C) Number of competitors in the market can be a limitation but not unmanageable burden. The product design is the key to beat competitors in the market.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Severin Bernhart
+
+Email: severinbernhart@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/severin-bernhart/
+
+EXPERIENCE
+
+Technical: create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+design a system architecture for a scalable/distributed application
+
+Founder: I do not have experience as a founder.
+
+Other: I have none of the experience mentioned above
+
+ACCOMPLISHMENTS
+
+My goal is to run one marathon per year in a different country. I did three already. This is one way to train my personal self-discipline and mental health.
+
+PHILANTHROPIC INTERESTS
+
+Hard to say, I would wish to donate 5%, 7.500 USD, yearly. I would donate to charities that support the sustainability triangular: social, ecologic, economic. In my opinion, a balance between the three main sustainability components is the key for a better world. Thus, I could imagine to donate to a) Save the Children to ensure equal chances for people on the market, b) Greenpeace to support the fight against global warming, and c) Human Rights Watch to enhance the reduction of human abuse.
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience • climate
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================

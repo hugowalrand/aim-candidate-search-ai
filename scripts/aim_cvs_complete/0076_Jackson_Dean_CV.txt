@@ -1,0 +1,145 @@
+================================================================================
+JACKSON DEAN
+Technical Co-founder • Preseed Experience • Europe
+ID: HL3UCKB3
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: jacksondean17@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/jacksondean17/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Europe, North America
+🛠️ Skills: Backend Development • Mobile Development • Frontend Development • LLM/AI • Domain Expertise • Management
+
+COMPLETE PROFILE
+------------------------------
+Jackson Dean 
+ Technical Co-founder • Preseed Experience • Europe 
+ Regions: Europe, North America 
+ Fundraising: Preseed 
+ Technical: Yes 
+ Tags: AIM_2024, technical_cofounder, fundraising_experience 
+ Backend Development, Mobile Development, Frontend Development, LLM/AI, Domain Expertise, Management 
+ I organized a Mr. Beast "Stay in the circle" game for a group of friends and acquaintances.
+
+A 12 hour 10 person "boredom competition" where participants had to remain in a circle on my driveway that shrank over time. It turned out to be an absolute blast!
+
+N/A
+
+I would donate 20% ($30k), primarily to x/s-risk reduction and adjacent groups.
+
+This would likely be Longview Philanthropy for the following reasons:
+
+
+
+I am drawn to x-risk reduction through a "figure out the really high risk pressing problems first, then deal with the animals / global health / other problems afterwards."
+
+With regards to AI risks specifically:
+
+if we "solve" the various AI problems first, everything else may become easier to fix afterwards because we have powerful AI tools / collaborators to help.
+If we fail to solve the AI problems (and one of the catastrophic AI scenarios plays out), then nothing really matters anymore
+If AI fizzles and the catastrophic scenarios do not play out, I will still have been glad to have treated it seriously
+
+Longview is recommended by Giving What We Can. 
+
+I trust the recommendations of GWWC
+
+I have worked with Longview before as a grantee and appreciate their values and rigor in their grant evaluations
+$30k is not so large a number that I would want to have significant personal involvement in deciding where the money goes. My threshold for that is likely ~$100k/year
+
+
+
+In order: A, D, B, C
+
+1. Personal fit with the idea
+
+I subscribe to Derek Sivers' idea that “Ideas are worth nothing unless executed. They are just a multiplier.
+
+Execution is worth millions.”
+
+Executing well on the idea matters much more than the idea itself. So while one idea might be weaker in other aspects compared to another, if you are more personally able / willing / excited to execute on a particular idea, that would create much more final success.
+
+  
+
+2. Demonstrated customer willingness to pay
+
+It doesn't matter how great the thing you build is if no one is willing to pay for it.
+
+3. Total addressable market
+
+I think this goes closely in hand with number of competitors and quality of competitors.
+
+My favorite example of this is blue collar small businesses like plumbers. If a city is large relative to the number of plumbers, it is easy for a new plumber to pull enough business to be viable, without significantly affecting the existing plumbers.
+
+But for a small city that cannot support more than a few, it would be extremely difficult for a new plumber to pull enough business to survive, and if they did, an existing plumber would likely be forced out.
+
+4. Number of competitors
+
+See above.
+
+But also the quality of competitors is extremely important. If a new entrant can improve on the offerings of all the rest, it does not necessarily matter how many competitors there are. (Barring switching costs away from existing solutions) 
+ CANDIDATE PROFILE
+Jackson Dean
+
+Email: jacksondean17@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/jacksondean17/
+
+EXPERIENCE
+
+Technical: build a marketing / lead generation website
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+
+Founder: I do not have experience as a founder.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+I have managed a team of more than 5 people
+
+ACCOMPLISHMENTS
+
+I organized a Mr. Beast "Stay in the circle" game for a group of friends and acquaintances.
+
+A 12 hour 10 person "boredom competition" where participants had to remain in a circle on my driveway that shrank over time. It turned out to be an absolute blast!
+
+PHILANTHROPIC INTERESTS
+
+I would donate 20% ($30k), primarily to x/s-risk reduction and adjacent groups.
+
+This would likely be Longview Philanthropy for the following reasons:
+
+
+
+I am drawn to x-risk reduction through a "figure out the really high risk pressing problems first, then deal with the animals / global health / other problems afterwards."
+
+With regards to AI risks specifically:
+
+if we "solve" the various AI problems first, everything else may become easier to fix afterwards because we have powerful AI tools / collaborators to help.
+If we fail to solve the AI problems (and one of the catastrophic AI scenarios plays out), then nothing really matters anymore
+If AI fizzles and the catastrophic scenarios do not play out, I will still have been glad to have treated it seriously
+
+Longview is recommended by Giving What We Can. 
+
+I trust the recommendations of GWWC
+
+I have worked with Longview before as a grantee and appreciate their values and rigor in their grant evaluations
+$30k is not so large a number that I would want to have significant personal involvement in deciding where the money goes. My threshold for that is likely ~$100k/year
+
+
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

@@ -1,0 +1,98 @@
+================================================================================
+PAULO ALVES
+Technical Co-founder • Preseed Experience • Europe
+ID: 5PY9P28J
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: p@uloalv.es
+🔗 LinkedIn: https://www.linkedin.com/in/paulo-alves-/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Preseed
+🌍 Regional Experience: Europe, Latin America, North America
+🛠️ Skills: Backend Development • Mobile Development • Frontend Development • Full Stack Development • DevOps • LLM/AI • Data Science • Domain Expertise
+
+COMPLETE PROFILE
+------------------------------
+Paulo Alves 
+ Technical Co-founder • Preseed Experience • Europe 
+ Regions: Europe, Latin America, North America 
+ Fundraising: Preseed 
+ Technical: Yes 
+ Tags: AIM_2024, technical_cofounder, fundraising_experience 
+ Backend Development, Mobile Development, Frontend Development, Full Stack Development, DevOps, LLM/AI, Data Science, Domain Expertise 
+ I'll admit- it's a little tricky for me to answer this question in a way that is both authentic and makes me feel as though I'm representing the kind of spirit that you're trying to cultivate in this program.
+
+Because the truth is that I've made more than $150k/year gross for a while and have been averaging a donation rate of 
+
+In ascending order of importance:
+
+4. (C) Number of competitors in the market
+
+I wouldn't place too much stock in this. A market with many many competitors can indicate that no one has quite figured out how to execute well. A market with little competition may have entrenched players. In that case, I'd want a clear thesis as to why we think we could outcompete them with, but that's not unreasonable (see: the innovator's dilemma).
+
+
+
+3. (B) Total addressable market
+
+
+
+
+
+A market that's too small to sustain a business (or draw requisite funding) would be a deal-breaker. Beyond that, I don't think it matters too much. Whenever I hear a pitch in the style of "if we corner just 1% of this giant market" I roll my eyes, because I think it tends to incorrectly presume that a small market share of a very large market is somehow easily attainable.
+
+2. (A) Personal fit with idea
+
+A startup is a big commitment, so I'd like to make sure I'm picking an endeavor that I believe in and suites my skillset. Plus: having a good founder-market fit narrative can be helpful in getting funding
+
+  
+
+
+
+1. (D) Demonstrated customer willingness to pay
+
+
+
+Market validation is the difference between an idea for a piece of software that could exist and a plan for building an actual company. I imagine most of my time/effort spent evaluating startup ideas would be discovering whether customers are willing to pay for stuff as quickly as possible (a la the Lean Startup)
+
+ 
+ CANDIDATE PROFILE
+Paulo Alves
+
+Email: p@uloalv.es
+
+LinkedIn: https://www.linkedin.com/in/paulo-alves-/
+
+EXPERIENCE
+
+Technical: build a marketing / lead generation website
+create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+design a system architecture for a scalable/distributed application
+
+Founder: I do not have experience as a founder.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+
+PHILANTHROPIC INTERESTS
+
+I'll admit- it's a little tricky for me to answer this question in a way that is both authentic and makes me feel as though I'm representing the kind of spirit that you're trying to cultivate in this program.
+
+Because the truth is that I've made more than $150k/year gross for a while and have been averaging a donation rate of 
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder • fundraising_experience
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:34:00
+================================================================================

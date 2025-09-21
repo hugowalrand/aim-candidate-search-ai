@@ -1,0 +1,154 @@
+================================================================================
+NELSON T. AJULO
+Technical Co-founder • Series B+ Experience • Europe
+ID: I0PU1EP7
+================================================================================
+
+CONTACT INFORMATION
+------------------------------
+📧 Email: nelson@joble.app
+🔗 LinkedIn: https://www.linkedin.com/in/nelson-ta/
+
+PROFESSIONAL SUMMARY
+------------------------------
+🎯 Years of Experience: 2
+💻 Technical Co-founder: Yes
+💰 Fundraising Experience: Series B+
+🌍 Regional Experience: Europe
+🛠️ Skills: Backend Development • Mobile Development • Frontend Development • Full Stack Development • DevOps • LLM/AI • Machine Learning • Data Science • Domain Expertise • Management
+
+DETAILED PROFILE
+------------------------------
+📋 SUMMARY:
+Nelson T. Ajulo
+
+Technical Co-founder • Series B+ Experience • Europe
+
+Regions: Europe
+
+Fundraising: Series B+
+
+Technical: Yes
+
+Tags: AIM_2024, technical_cofounder
+
+Backend Development, Mobile Development, Frontend Development, Full Stack Development, DevOps, LLM/AI, Machine Learning, Data Science, Domain Expertise, Management
+
+One of my proudest non-professional accomplishments was organizing a last-minute community dinner in Lagos that brought together over 250 entrepreneurs and 50 investors within just four days.
+
+Convertible Note
+
+If I earned $150,000/year, I’d commit 10% ($15,000) annually to evidence-based, Africa-focused causes. My giving principles are: (1) measurable impact, (2) proximity to need, and (3) dignity/agency for recipients.
+
+Allocation
+
+New Incentives – $6,000 (40%)  
+    Conditional cash transfers that increase infant immunization in northern Nigeria. RCT-backed, highly cost-effective, and aligned with my belief in preventive health and smart incentives.
+
+Against Malaria Foundation (AMF) – $4,500 (30%)  
+    Distributes long-lasting insecticidal nets across sub-Saharan Africa. Clear cost per life saved, excellent transparency, and strong independent track record.
+
+GiveDirectly – $3,000 (20%)  
+    Unconditional cash transfers to extremely low-income households (Kenya, Uganda, Ghana, etc.). Cash respects recipient agency, complements my work in financial inclusion, and is supported by rigorous evidence on welfare gains.
+
+Women in Tech Africa (scholarship fund administered by the NGO) – $1,500 (10%)  
+    Targeted scholarships for African women entering software/cloud engineering. This addresses persistent access gaps, builds local talent pipelines, and compounds long-term economic mobility. (Administered externally to avoid conflicts.)
+
+Why these organizations?  
+They combine strong independent evaluation, transparent reporting, and scalable operations. Two (New Incentives, AMF) are among the most cost-effective ways to reduce under-5 mortality; GiveDirectly directly boosts household resilience and respects choice; the Women in Tech Africa allocation invests in inclusive growth and future income.
+
+How I’d give  
+I’d split donations monthly to support cash flow planning, review results annually, and reallocate based on updated evidence (e.g., GiveWell/IDinsight, RCTs, implementation data). If available, I’d use employer matching and a small donor-advised reserve for emergencies while keeping the core 10% fully deployed each year.
+
+This portfolio balances immediate lives saved with long-term human capital and economic inclusion.
+
+Ranking (most → least important):  
+(D) Demonstrated customer willingness to pay → (A) Personal fit with idea → (B) Total addressable market → (C) Number of competitors
+
+Why this order
+
+1) Demonstrated willingness to pay (D)  
+Evidence that real customers part with real money is the strongest predictor of survival and product-market fit velocity. It collapses multiple risks at once: the problem is painful, the solution is valued, the pricing is viable, and the buyer can navigate procurement. I’d weight: paid pilots > signed LOIs with pricing > unpaid pilots > survey intent. I also look for retention (renewals, repeat usage, cohort curves) and unit economics (gross margin, payback). If this is strong, almost every other risk is tractable.
+
+2) Personal fit / founder-market fit (A)  
+Before PMF, the founder is the moat. Deep domain insight (“earned secrets”), credible access (networks, distribution, data), and authentic obsession drive faster iteration cycles, better recruitment, and trust with early adopters—especially in regulated or trust-sensitive markets (fintech, health, gov). Personal fit also sustains resilience across pivots; a mediocre idea with a perfect founder-market fit often outperforms a great idea with a generic founder.
+
+3) Total addressable market (B)  
+Big markets matter for venture outcomes, but TAM is frequently misestimated and dynamic. I care more about the wedge (initial beachhead with high pain and high willingness to pay) and the expandable TAM unlocked by product learning, adjacent use cases, or bottoms-up adoption. A smaller, high-urgency SOM > a hand-wavy billion-dollar TAM. Once willingness to pay is proven and the founder is strong, market expansion usually follows.
+
+4) Number of competitors (C)  
+Raw competitor count is the least informative. Competition is a signal that value exists; the questions are structure and differentiation: Can we win a specific segment with a wedge (speed, price, UX, compliance, workflow depth, distribution)? Are switching costs high? Is the category expanding? I worry less about “how many” and more about unit economics, buyer switching friction, and whether incumbents are mis-aligned (e.g., channel conflict, legacy tech, pricing). A crowded space with a crisp wedge can be great; a “no-competitor” space often means no budget or latent demand.
+
+How the ranking might shift
+
+Pre-idea / exploration: (A) may momentarily edge (D) while you run smoke tests.
+
+Highly regulated infra: (A) and (B) gain weight given access and scale requirements.
+
+Deeptech with long cycles: (D) becomes “validated pathway to revenue” (e.g., letters of intent with milestones).
+
+But in a program setting aiming for traction quickly, paying customers first, founder fit second, scalable market third, and competitor count last is the most reliable stack.
+
+📄 FULL CV:
+CANDIDATE PROFILE
+Nelson T. Ajulo
+
+Email: nelson@joble.app
+
+LinkedIn: https://www.linkedin.com/in/nelson-ta/
+
+EXPERIENCE
+
+Technical: build a marketing / lead generation website
+create automations using No-Code or Low-Code tools (e.g. Airtable, Zapier, IFTTT, n8n...)
+develop a backend with a database for a SaaS MVP (minimum viable product)
+build a frontend for a SaaS MVP
+build a MVP mobile app (Android, iOS or hybrid)
+deploy an app to a cloud provider (e.g. AWS or GCP)
+design a system architecture for a scalable/distributed application
+
+Founder: I have founded another type of company that has generated more than 100K USD in revenue
+I have founded a nonprofit.
+
+Other: I have domain expertise in a specific industry (usually means you have spent 5+ years working in that industry)
+I have managed a team of more than 5 people
+I have experience operating in emerging markets
+
+ACCOMPLISHMENTS
+
+One of my proudest non-professional accomplishments was organizing a last-minute community dinner in Lagos that brought together over 250 entrepreneurs and 50 investors within just four days.
+
+PHILANTHROPIC INTERESTS
+
+If I earned $150,000/year, I’d commit 10% ($15,000) annually to evidence-based, Africa-focused causes. My giving principles are: (1) measurable impact, (2) proximity to need, and (3) dignity/agency for recipients.
+
+Allocation
+
+New Incentives – $6,000 (40%)  
+    Conditional cash transfers that increase infant immunization in northern Nigeria. RCT-backed, highly cost-effective, and aligned with my belief in preventive health and smart incentives.
+
+Against Malaria Foundation (AMF) – $4,500 (30%)  
+    Distributes long-lasting insecticidal nets across sub-Saharan Africa. Clear cost per life saved, excellent transparency, and strong independent track record.
+
+GiveDirectly – $3,000 (20%)  
+    Unconditional cash transfers to extremely low-income households (Kenya, Uganda, Ghana, etc.). Cash respects recipient agency, complements my work in financial inclusion, and is supported by rigorous evidence on welfare gains.
+
+Women in Tech Africa (scholarship fund administered by the NGO) – $1,500 (10%)  
+    Targeted scholarships for African women entering software/cloud engineering. This addresses persistent access gaps, builds local talent pipelines, and compounds long-term economic mobility. (Administered externally to avoid conflicts.)
+
+Why these organizations?  
+They combine strong independent evaluation, transparent reporting, and scalable operations. Two (New Incentives, AMF) are among the most cost-effective ways to reduce under-5 mortality; GiveDirectly directly boosts household resilience and respects choice; the Women in Tech Africa allocation invests in inclusive growth and future income.
+
+How I’d give  
+I’d split donations monthly to support cash flow planning, review results annually, and reallocate based on updated evidence (e.g., GiveWell/IDinsight, RCTs, implementation data). If available, I’d use employer matching and a small donor-advised reserve for emergencies while keeping the core 10% fully deployed each year.
+
+This portfolio balances immediate lives saved with long-term human capital and economic inclusion.
+
+TAGS
+----------
+🏷️ AIM_2024 • technical_cofounder
+
+================================================================================
+Exported from AIM Founding to Give Database
+Export Date: 2025-09-21 13:15:12
+================================================================================
